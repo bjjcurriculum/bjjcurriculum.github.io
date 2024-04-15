@@ -4,28 +4,37 @@
 <link href="faviconbelt.ico" rel="icon" type="image/x-icon">
 <style>
 
-body {background-color: AliceBlue;}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: AliceBlue;
+}
 
-#techniques {
+table {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  counter-reset: row-num;
 }
 
-#techniques td, #techniques th {
+td, th {
   border: 1px solid #ddd;
   padding: 8px;
 }
 
-#techniques td {
+td {
   background-color: White;
 }
 
-#techniques tr:nth-child(even){background-color: #f2f2f2;}
+tr td:first-child::before {
+    counter-increment: row-num;
+    content: counter(row-num);
+}
 
-#techniques tr:hover {background-color: #ddd;}
+tr:nth-child(even){background-color: #f2f2f2;}
 
-#techniques th {
+tr:hover {background-color: #ddd;}
+
+th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
@@ -66,60 +75,32 @@ body {background-color: AliceBlue;}
 
 <h3>Concepts</h3>
 <ul>
-  <li>Position before submission.</li>
+  <li>Position before submission: learn escapes, guard retention and guard passes to get to a better position before submissions.</li>
   <li>Keep your elbows in. Extended limbs can be locked or barred.</li>
   <li>When on bottom, always stay on one side, never flat on your back.</li>
-  <li>When on top, make yourelf heavy by getting knees off the map. Control with your <a href="https://youtu.be/A3A5MLIA_Q0">weight</a>, not your hands.</li>
-  <li>Inside hand position, but never cross your partner's center line.</li>
+  <li>When on top, make yourelf heavy by getting your knees off the map. Control with your <a href="https://youtu.be/A3A5MLIA_Q0">weight</a>, not your hands.</li>
+  <li>Inside hand position, but never cross your partner's center line (at the risk to get your back taken).</li>
   <li>On defense, create space. On offense, take away space between you and your partner.</li>
+</ul>
+
+<h3>Movements</h3>
+<ul>
+  <li>Most important: hip escape (shrimp), bridge (sweep)</li>
+  <li>Technical standup, grappler's standup</li>
+  <li>Breakfall, sprawl</li>
+  <li>Animal walks: ear walk, reverse bear walk, crab walk</li>
 </ul>
 
 <h3>Most common submissions</h3>
 <ul>
-  <li>Arm locks
-    <ul>
-      <li>straight armlock</li>
-      <li>Americana (bent armlock)</li>
-      <li>Kimura (double wrist lock)</li>
-    </ul>
-  </li>
-  <li>Neck chokes
-    <ul>
-      <li>Guillotine</li>
-      <li>Rear Nacked Choke (RNC)</li>
-    </ul>
-  </li>
-  <li>Head & arm chokes
-    <ul>
-      <li>Arm-in guillotine</li>
-      <li>Triangle</li>
-      <li>Arm triangle</li>
-      <li>D'arce</li>
-      <li>Anaconda</li>
-    </ul>
-  </li>
-  <li>Leg locks
-    <ul>
-      <li>Ankle lock</li>
-      <li>Toe hold</li>
-      <li>Knee bar</li>
-    </ul>
-  </li>
-  <li>Funky submissions
-    <ul>
-      <li>Ezequiel choke</li>
-      <li>Calf and bicep slices</li>
-      <li>Wrist lock</li>
-    </ul>
-  </li>
-  <li>Gi chokes
-    <ul>
-      <li>Cross collar</li>
-      <li>Bow & arrow</li>
-    </ul>
-  </li>
+  <li>Armlocks: straight armlock, Americana, Kimura</li>
+  <li>Pure chokes: guillotine, rear naked choke (RNC)</li>
+  <li>Head &amp; arm chokes: arm-in gullotine, triangle, arm triangle, D'Arce, Anaconda</li>
+  <li>Leg locks: ankle lock, toe hold, knee bar</li>
+  <li>Gi chokes: cross collar, bow &amp; arrow</li>
+  <li>Other submissions: Ezequiel, calf &amp; bicep slices, wrist lock</li>
 </ul>
-  
+
 <h3>Suggested Youtube channels</h3>
 <ul>
   <li><a href="https://www.youtube.com/@LIMIBJJ">Less Impressed More Involved BJJ</a> (data based BJJ)</li>
@@ -130,9 +111,7 @@ body {background-color: AliceBlue;}
 
 <h3>Basic positions and techniques</h3>
 
-<p>Escapes, guard retention and guard passes before submissions.</p>  
-
-<table id="techniques" style="width:100%">
+<table style="width:100%">
     <thead>
         <tr>
             <th>#</th>
@@ -143,265 +122,234 @@ body {background-color: AliceBlue;}
     </thead>
     <tbody>
         <tr>
-            <td>1</td>
-            <td rowspan=7>Movements</td>
-            <td>Hip escape (shrimp)</td>
             <td></td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Bridge (sweep)</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Technical standup</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>Breakfall</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>Sprawl</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>Grappler's standup</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>7</td>
-            <td>Animal walk</td>
-            <td>Bear walk, reverse bear walk, crab walk</td>
-        </tr>
-        <tr>
-            <td>8</td>
             <td rowspan=2>Back control bottom</td>
             <td>Weak side escape</td>
             <td><a href="https://youtu.be/k-lCzVAzJpg">Lachlan Giles</a> <a href="https://youtu.be/3Jd2llamfl8">JJ Machado</a></td>
         </tr>
         <tr>
-            <td>9</td>
+            <td></td>
             <td>Strong side escape</td>
             <td><a href="https://youtu.be/sNZ5tiVhJBA"> TeachMeGrappling</a></td>
         </tr>
         <tr>
-            <td>10</td>
+            <td></td>
             <td rowspan=2>Mount bottom</td>
-            <td>Bridge & roll escape (upa)</td>
+            <td>Bridge &amp; roll escape (upa)</td>
             <td><a href="https://youtu.be/IgYot9fcBh0"> JJ Machado</a></td>
         </tr>
         <tr>
-            <td>11</td>
+            <td></td>
             <td>Elbow-knee escape</td>
         <td><a href="https://youtu.be/_lrM2b3Cuec">JJ Machado</a> <a href="https://youtu.be/s3KO81Mg3Kk">TeachMeGrappling 1</a> <a href="https://youtu.be/tCEL3U6N0GA">2</a> <a href="https://youtu.be/cgnwtXw0mm0">3</a> <a href="https://youtu.be/VfhqYawBkDc">4</a> <a href="https://youtu.be/rnpO6y9PPnc">Chewjitsu</a></td>
         </tr>
         <tr>
-            <td>12</td>
+            <td></td>
             <td rowspan=2>Side control bottom</td>
             <td>Hip escape guard replacement</td>
             <td><a href="https://youtu.be/83xM4nO95pI">TeachMeGrappling</a> <a href="https://youtu.be/swEcP2QWHs8">Lachlan Giles</a></td>  
         </tr>
         <tr>
-            <td>13</td>
+            <td></td>
             <td>Ghost escape</td>
             <td><a href="https://youtu.be/6ZKFobk8vOQ">TeachMeGrappling</a></td>
         </tr>
         <tr>
-            <td>14</td>
+            <td></td>
             <td rowspan=2>Inside guard</td>
             <td>Stand up pass</td>
             <td></td>
         </tr>
         <tr>
-            <td>15</td>
+            <td></td>
             <td>Kneeling pass</td>
             <td></td>
         </tr>
         <tr>
-            <td>16</td>
+            <td></td>
             <td rowspan=2>Half guard bottom</td>
             <td>Underhook back take</td>
             <td></td>
         </tr>
         <tr>
-            <td>17</td>
+            <td></td>
             <td>Foot sweep</td>
             <td></td>
         </tr>
         <tr>
-            <td>18</td>
-            <td rowspan=4>Late submission escape</td>
-            <td>Hitchhiker's armbar escape</td>
-            <td><a href="https://youtu.be/CYp3SYHuR-k">TeachMeGrappling 1</a> <a href="https://youtu.be/VN_8pjeGdKI">2</a></td>
+            <td></td>
+            <td rowspan=5>Late submission escape</td>
+            <td>Knee on belly escape</td>
+            <td><a href="https://youtu.be/Pk3EMJely7Y">TeachMeGrappling</a>
         </tr>
         <tr>
-            <td>19</td>
+            <td></td>
             <td>Ankle trap armbar escape</td>
             <td><a href="https://youtu.be/N3kdR-SKvtI">TeachMeGrappling 1</a> <a href="https://youtu.be/dTFyB1issmo">2</a></td>
         </tr>
         <tr>
-            <td>20</td>
+            <td></td>
+            <td>Ankle trap armbar escape</td>
+            <td><a href="https://youtu.be/N3kdR-SKvtI">TeachMeGrappling 1</a> <a href="https://youtu.be/dTFyB1issmo">2</a></td>
+        </tr>
+        <tr>
+            <td></td>
             <td>Triangle late escape</td>
             <td><a href="https://youtu.be/upZZ9wtE5FQ">BJJGlobalTrotters</a></td>
         </tr>
         <tr>
-            <td>21</td>
+            <td></td>
             <td>Rear Naked Choke</td>
         <td><a href="https://youtu.be/aGFstiSgxCo">TeachMeGrappling</a></td>
         </tr>
         <tr>
-            <td>22</td>
+            <td></td>
             <td rowspan=5>Facing open guard</td>
             <td>Knee slice</td>
             <td></td>
         </tr>
         <tr>
-            <td>23</td>
+            <td></td>
             <td>Double under guard pass</td>
             <td></td>
         </tr>
         <tr>
-            <td>24</td>
+            <td></td>
             <td>Over-under guard pass</td>
             <td></td>
         </tr>
         <tr>
-            <td>25</td>
+            <td></td>
             <td>Stack pass</td>
             <td><a href="https://youtu.be/bSfdlYpIs7g">Lachlan Giles</a></td>
         </tr>
         <tr>
-            <td>26</td>
+            <td></td>
             <td>Bullfighter guard pass (torreando)</td>
             <td><a href="https://youtu.be/ZMkGf1sP_90">TeachMeGrappling</a></td>
         </tr>
         <tr>
-            <td>27</td>
+            <td></td>
             <td rowspan=2>Half guard top</td>
             <td>Foot-wedge guard pass</td>
             <td></td>
         </tr>
         <tr>
-            <td>28</td>
+            <td></td>
             <td>Hip-switch guard pass</td>
             <td></td>
         </tr>
         <tr>
-            <td>29</td>
+            <td></td>
             <td rowspan=8>Full guard</td>
             <td>Arm drag back take</td>
             <td></td>
         </tr>
         <tr>
-            <td>30</td>
+            <td></td>
             <td>Scissor sweep</td>
             <td></td>
         </tr>
         <tr>
-            <td>31</td>
+            <td></td>
             <td>Hip bump sweep</td>
             <td></td>
         </tr>
         <tr>
-            <td>32</td>
+            <td></td>
             <td>(No Gi) Cross collar choke</td>
             <td></td>
         </tr>
         <tr>
-            <td>33</td>
+            <td></td>
             <td>Arm bar</td>
             <td></td>
         </tr>
         <tr>
-            <td>34</td>
+            <td></td>
             <td>Triangle choke</td>
             <td></td>
         </tr>
         <tr>
-            <td>35</td>
+            <td></td>
             <td>Kimura</td>
             <td></td>
         </tr>
         <tr>
-            <td>36</td>
+            <td></td>
             <td>Guillotine</td>
             <td></td>
         </tr>
         <tr>
-            <td>37</td>
+            <td></td>
             <td rowspan=6>Side control</td>
             <td>Knee slice to mount</td>
             <td><a href="https://youtu.be/cBgH7-iobn4">TeachMeGrappling</a> <a href="https://youtu.be/12t3zGgK3Hs">Ffion Davies 1</a> <a href="https://youtu.be/qW1t84rGK5E">2</a></td>
         </tr>
         <tr>
-            <td>38</td>
+            <td></td>
             <td>Kimura</td>
             <td></td>
         </tr>
         <tr>
-            <td>39</td>
+            <td></td>
             <td>Americana</td>
             <td></td>
         </tr>
         <tr>
-            <td>40</td>
+            <td></td>
             <td>Head-arm triangle choke</td>
             <td><a href="https://youtu.be/DOjT8k4HhQU">B-Team</a> <a href="https://youtu.be/yWX1TRm67S8">B-Team</a></td>
         </tr>
         <tr>
-            <td>41</td>
+            <td></td>
             <td>Spinning arm bar</td>
             <td></td>
         </tr>
         <tr>
-            <td>42</td>
+            <td></td>
             <td>Side control door stop</td>
             <td><a href="https://youtu.be/TcKrb2CjDCs">TeamMeGrappling</a></td>
         </tr>
         <tr>
-            <td>43</td>
+            <td></td>
             <td rowspan=4>Full mount</td>
             <td>Back take</td>
             <td></td>
         </tr>
         <tr>
-            <td>44</td>
+            <td></td>
             <td>Arm bar</td>
             <td></td>
         </tr>
         <tr>
-            <td>45</td>
+            <td></td>
             <td>Americana</td>
             <td></td>
         </tr>
         <tr>
-            <td>46</td>
+            <td></td>
             <td>(Gi Only) Cross collar choke</td>
             <td></td>
         </tr>
         <tr>
-            <td>47</td>
+            <td></td>
             <td rowspan=4>Back control</td>
             <td>Rear naked choke</td>
             <td></td>
         </tr>
         <tr>
-            <td>48</td>
+            <td></td>
             <td>Rear triangle and arm bar</td>
             <td><a href="https://youtu.be/EchKKSAYMqM">Globetrotters</a></td>
         </tr>
         <tr>
-            <td>49</td>
+            <td></td>
             <td>(Gi Only) Doorbell/lapel choke</td>
             <td></td>
         </tr>
         <tr>
-            <td>50</td>
+            <td></td>
             <td>(Gi Only) Bow and arrow choke</td>
             <td></td>
         </tr>        
@@ -409,7 +357,7 @@ body {background-color: AliceBlue;}
 </table>
 
 <h3>Extra credits</h3>
-<table id="techniques">
+<table>
         <thead>
         <tr>
             <th>#</th>
@@ -419,38 +367,38 @@ body {background-color: AliceBlue;}
     </thead>
     <tbody>
         <tr>
-            <td>1</td>
+            <td></td>
             <td rowspan=1>Butterfly guard</td>
             <td><a href="https://youtu.be/r_7LI5rE_ec">Butterfly sweep</a></td>
         </tr>
         <tr>
-            <td>2</td>
+            <td></td>
             <td rowspan=1>Gift wrap</td>
             <td><a href="https://youtu.be/igMiqxNplpE">Gift wrap 1</a> <a href="https://youtu.be/vMlSjPhsMj8">2</a></td>
         </tr>
         <tr>
-            <td>3</td>
+            <td></td>
             <td>Clamp guard</td>
             <td><a href="https://youtu.be/Y3CJAMifi7E">Brian Glick 1</a> <a href="https://youtu.be/l_EzwrPdvGE">2</a> <a href="https://youtu.be/wYBK1vKXyIE">3</a> <a href="https://youtu.be/IceuCNbhJw0">4</a> <a href="https://youtu.be/QJIMC9JiaXY">TeachMeGrappling</a> <a href="https://youtu.be/ZmZTZQYuNZs">Jaramillo</a> <a href="https://youtu.be/gQWXO_L0jbU">Danaher</a></td>
         </tr>
         <tr>
-            <td>4</td>
+            <td></td>
             <td>Leg stapling</td>
             <td><a href="https://youtu.be/CkBEvF-71qY">Leg ridding 1</a> <a href="https://youtu.be/BBMuYMZM-FM">2</a> <a href="https://youtu.be/xJL9VeEbcVs">3</a> <a href="https://youtu.be/AqW4VcP1QZo">Leg stapling 1</a> <a href="https://youtu.be/KayM0L6g2Hw">2</a> <a href="https://youtu.be/MTR7DaNMHVo">Lachlan Giles</a>
  <a href="https://youtu.be/vZvc5t_e2LI">Ruotolo Brothers</a></td> 
         </tr>
         <tr>
-            <td>5</td>
+            <td></td>
             <td>Leg locks</td>
             <td><a href="https://youtu.be/1xAFbNGMoa8">LessImpressedMoreInvolved 1</a> <a href="https://youtu.be/nB6rdaGnswM">2</a> <a href="https://youtu.be/RvPyukNsaOU">TeachMeGrappling</a></td> 
         </tr>
         <tr>
-            <td>6</td>
+            <td></td>
             <td>Defensive BJJ</td>
             <td><a href="https://youtu.be/HYON7oAvB2s">Overview</a> <a href="https://youtu.be/jC6uFGCCLRY">Priit Mikhelson</a> <a href="https://youtu.be/qX30Wx5glJg">Chris Paine</a></td>
         </tr>
         <tr>
-            <td>7</td>
+            <td></td>
             <td>Mobility</td>
             <td><a href="https://youtu.be/ZMLiCnDJYuM">Movement Parallels Life Hip Mobility</a> <a href="https://youtu.be/8c92VH5A_l0">YogaBody Deep squat</a> <a href="https://youtu.be/2omWte2UAbQ">Hamstring</a></td> 
         </tr>
