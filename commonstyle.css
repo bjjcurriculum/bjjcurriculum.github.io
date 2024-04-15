@@ -48,8 +48,8 @@ th {
   background-image: linear-gradient(to right, White, Grey, Yellow, Orange, Green, DodgerBlue);
 }
 
-#bluetopurplegradient {
+#beyondbluegradient {
   height: 40px;
   background-color: DodgerBlue;
-  background-image: linear-gradient(to right, DodgerBlue, BlueViolet);
+  background-image: linear-gradient(to right, DodgerBlue, BlueViolet, Peru, Black);
 }
