@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: AliceBlue;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  counter-reset: row-num;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td {
+  background-color: White;
+}
+
+tr td:first-child::before {
+    counter-increment: row-num;
+    content: counter(row-num);
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: DodgerBlue;
+  color: White;
+}
+
+#adultbluebeltgradiant {
+  height: 40px;
+  background-color: DodgerBlue;
+  background-image: linear-gradient(to right, White , DodgerBlue);
+}
+
+#kidbluebeltgradiant {
+  height: 20px;
+  background-color: DodgerBlue;
+  background-image: linear-gradient(to right, White, Grey, Yellow, Orange, Green, DodgerBlue);
+}
+
+#bluetopurplegradient {
+  height: 40px;
+  background-color: DodgerBlue;
+  background-image: linear-gradient(to right, DodgerBlue, BlueViolet);
+}
