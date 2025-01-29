@@ -50,6 +50,7 @@ th {
 
 #beyondbluegradient {
   height: 40px;
+  color: white;
   background-color: DodgerBlue;
   background-image: linear-gradient(to right, DodgerBlue, BlueViolet, Peru, Black);
 }
