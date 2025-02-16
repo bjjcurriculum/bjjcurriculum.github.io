@@ -17,6 +17,7 @@ td, th {
 
 td {
   background-color: White;
+  vertical-align: top;
 }
 
 tr td:first-child::before {
