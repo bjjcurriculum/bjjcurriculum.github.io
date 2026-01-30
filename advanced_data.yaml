@@ -16,37 +16,8 @@ articles:
       - { "Kata Jiu Jitsu":"https://www.youtube.com/@KataJiuJitsu" }
 
 tables:
-  - title: "Test Table"
+  - title: "Techniques"
     rows:
-    - position: "Position 1"
-      technique: "Technique 1"
-      steps:
-        - "asdf;lkajsf;lkasjf;lkas;lfkajsfjl;kcmkmeija;jeiwj;alisjidof"
-        - "asdfpoaisjdf;wejiosjfl;ksajoejasoifjslajsifjasldfasjdliajfsldfj"
-        - "asd;flj;wiejalsdsj;lg;ywiancioamlzzjdljgoisj"
-      rationale: ["sdfafasdf", "asdfasdfasf", "asdfasdf"]
-      offense: ["asfasdfasdfasfasfasF", "asfjoijllkj", "fqefpsoialkm"]
-      defense: ["asfal;sfjelkjldajsldkfjasdf", "asdf;asdfjas;lfkjaslkj", "aopwipejckj"]
-      transitions: ["as;lfjweoijk", "aweofimwlkdjsl", "wpeoijlsadkfj"]
-      drills: ["as;lfdjas;lfjks","asdfopwiemlakdfjlk", "asfjpweojladkf"]
-      videos:
-        - label: "TeachMeGrappling"
-          url: "https://youtu.be/sNZ5tiVhJBA"
-    - position: "Position 1"
-      technique: "Technique 2"
-      steps:
-        - "asdf;lkajsf;lkasjf;lkas;lfkajsfjl;kcmkmeija;jeiwj;alisjidof"
-        - "asdfpoaisjdf;wejiosjfl;ksajoejasoifjslajsifjasldfasjdliajfsldfj"
-        - "asd;flj;wiejalsdsj;lg;ywiancioamlzzjdljgoisj"
-      rationale: []
-      offense: []
-      defense: []
-      transitions: []
-      drills: []
-      videos:
-        - label: "TeachMeGrappling"
-          url: "https://youtu.be/sNZ5tiVhJBA"
-
     - position: "IRIMI ASHI"
       technique: "IRIMI ASHI HEEL HOOK EARLY ESCAPE"
       steps:
