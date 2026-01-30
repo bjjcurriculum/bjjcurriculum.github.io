@@ -1,0 +1,579 @@
+articles:
+
+  - title: "Approach to Learning"
+    items:
+      - "Relax and breathe. It will help you learn faster and apply more techniques when you roll."
+      - "Practice defense when rolling with people more skilled and/or heavier, more athletic than you."
+      - "Practice offense when rolling with people less skilled and/or lighter, less athletic than you."
+      - "Learn escapes and how to get to better positions first. Learn submissions second."
+      - "Ask for feedback to your partner after your roll."
+      - [ "Think in terms of ", { "first principles":"https://www.bjjmentalmodels.com/first-principles" }, "." ]
+
+  - title: "Core Concepts"
+    items:
+      - "Position before submission: learn escapes, guard retention, and guard passes to reach better positions before submissions."
+      - "Keep your elbows in. Extended limbs can be locked or barred."
+      - "When on bottom, always stay on one side, never flat on your back."
+      - [ "When on top, make yourself heavy by getting your knees off the ground. Control with your ", { "weight":"https://youtu.be/A3A5MLIA_Q0" }, ", not your hands." ]
+      - "Inside hand position is important, but never cross your partner’s center line to avoid getting your back taken."
+      - "On defense, create space. On offense, take away space."
+      - "Keep your hips (and head) higher than your partner’s."
+      - [ "Maintain ", { "hip height":"https://youtu.be/kY6rKWV02fY" }, " and keep your hips facing the ground at all times (even when being swept)." ]
+      - [ "Whoever wins the ", { "hand-fight":"https://youtu.be/B_0ZP5QEdpY" }, " exchange gets to attack." ]
+      - [ "To ", { "sweep":"https://youtu.be/CTxtHzv8vyo" }, ", pay attention to your partner’s balance and time it. To prevent being swept, be aware of your own balance and weight distribution." ]
+      - [ { "Control": "https://youtu.be/BWitv9AKoNU" }, " is being between the knees and armpits. Defend by denying access to this space. Cover your hips with your arms as much as possible." ]
+
+  - title: "Fundamental Movements"
+    items:
+      - [ "Most important movements: hip escape (", { "shrimp": "https://youtu.be/Q4Z8ZOX0OgA" }, "), bridge (", { "upa sweep":"https://youtu.be/EuJu75SlDHU" }, "), and the ", { "bridge-shrimp":"https://youtu.be/qYD8wkCja24" }, " combination." ]
+      - "Technical stand-up and grappler’s stand-up."
+      - "Break falls and sprawls."
+      - "Animal walks: bear walk, reverse bear walk, and crab walk."
+
+  - title: "Most Common Submissions"
+    items:
+      - "Armlocks: straight arm lock, Americana, Kimura."
+      - "Pure chokes: guillotine and rear naked choke (RNC)."
+      - "Head and arm chokes: arm-in guillotine, triangle, arm triangle, D’Arce, Anaconda."
+      - "Leg locks: ankle lock, toe hold, knee bar, heel hooks."
+      - "Gi chokes: cross collar, bow and arrow."
+      - "Other submissions: Ezekiel, calf slicer, bicep slicer, wrist lock."
+
+  - title: "Suggested YouTube Channels"
+    items:  
+      - { "Teach Me Grappling":"https://www.youtube.com/@TeachMeGrappling" }
+      - { "BJJ Globetrotters in Action":"https://www.youtube.com/@BJJGlobetrotters" }
+      - { "The Happy Pill Project":"https://www.youtube.com/@thehappypillproject" }
+      - [ { "Less Impressed More Involved BJJ":"https://www.youtube.com/@LIMIBJJ" }, " (data-based BJJ analysis)." ]
+
+tables:
+  - title: "Test Table"
+    rows:
+    - position: "Position 1"
+      technique: "Technique 1"
+      steps:
+        - "asdf;lkajsf;lkasjf;lkas;lfkajsfjl;kcmkmeija;jeiwj;alisjidof"
+        - "asdfpoaisjdf;wejiosjfl;ksajoejasoifjslajsifjasldfasjdliajfsldfj"
+        - "asd;flj;wiejalsdsj;lg;ywiancioamlzzjdljgoisj"
+      rationale: ["sdfafasdf", "asdfasdfasf", "asdfasdf"]
+      offense: ["asfasdfasdfasfasfasF", "asfjoijllkj", "fqefpsoialkm"]
+      defense: ["asfal;sfjelkjldajsldkfjasdf", "asdf;asdfjas;lfkjaslkj", "aopwipejckj"]
+      transitions: ["as;lfjweoijk", "aweofimwlkdjsl", "wpeoijlsadkfj"]
+      drills: ["as;lfdjas;lfjks","asdfopwiemlakdfjlk", "asfjpweojladkf"]
+      videos:
+        - label: "TeachMeGrappling"
+          url: "https://youtu.be/sNZ5tiVhJBA"
+    - position: "Position 1"
+      technique: "Technique 2"
+      steps:
+        - "asdf;lkajsf;lkasjf;lkas;lfkajsfjl;kcmkmeija;jeiwj;alisjidof"
+        - "asdfpoaisjdf;wejiosjfl;ksajoejasoifjslajsifjasldfasjdliajfsldfj"
+        - "asd;flj;wiejalsdsj;lg;ywiancioamlzzjdljgoisj"
+      rationale: []
+      offense: []
+      defense: []
+      transitions: []
+      drills: []
+      videos:
+        - label: "TeachMeGrappling"
+          url: "https://youtu.be/sNZ5tiVhJBA"
+
+  - title: "Basic Positions and Techniques"
+    rows:
+      - position: "Back control bottom"
+        technique: "Strong side escape"
+        steps:
+          - "Protect the neck and hand fight"
+          - "Block the choking arm"
+          - "Slide hips down"
+          - "Turn into the opponent"
+        rationale: []
+        offense: []
+        defense: []
+        transitions: []
+        drills: []
+        videos:
+          - label: "TeachMeGrappling"
+            url: "https://youtu.be/sNZ5tiVhJBA"
+
+      - position: "Back control bottom"
+        technique: "Weak side escape"
+        steps:
+          - "Identify the opponent’s weak hook side"
+          - "Control the choking arm with both hands"
+          - "Scoot hips toward the weak side"
+          - "Clear the hook"
+          - "Rotate to face the opponent"
+        rationale: []
+        offense: []
+        defense: []
+        transitions: []
+        drills: []
+        videos:
+          - label: "Lachlan Giles"
+            url: "https://youtu.be/k-lCzVAzJpg"
+          - label: "JJ Machado"
+            url: "https://youtu.be/3Jd2llamfl8"
+
+      - position: "Mount bottom"
+        technique: "Bridge & roll escape (upa)"
+        steps:
+          - "Trap one arm and foot"
+          - "Bridge explosively"
+          - "Roll the opponent"
+          - "Establish top position"
+        rationale: []
+        offense: []
+        defense: []
+        transitions: []
+        drills: []
+        videos:
+          - label: "JJ Machado"
+            url: "https://youtu.be/IgYot9fcBh0"
+
+      - position: "Mount bottom"
+        technique: "Knee-elbow escape"
+        steps:
+          - "Frame on the opponent’s hips"
+          - "Shrimp to create space"
+          - "Insert knee inside"
+          - "Recover half or full guard"
+        rationale: []
+        offense: []
+        defense: []
+        transitions: []
+        drills: []
+        videos:
+          - label: "JJ Machado"
+            url: "https://youtu.be/_lrM2b3Cuec"
+          - label: "Lachlan Giles"
+            url: "https://youtu.be/lSAYNVWIbnA"
+          - label: "TeachMeGrappling 1"
+            url: "https://youtu.be/s3KO81Mg3Kk"
+          - label: "TeachMeGrappling 2"
+            url: "https://youtu.be/tCEL3U6N0GA"
+          - label: "TeachMeGrappling 3"
+            url: "https://youtu.be/cgnwtXw0mm0"
+          - label: "TeachMeGrappling 4"
+            url: "https://youtu.be/VfhqYawBkDc"
+          - label: "Chewjitsu"
+            url: "https://youtu.be/rnpO6y9PPnc"
+          - label: "Matt Thornton"
+            url: "https://youtu.be/-eCX6umguKE"
+
+      - position: "Side control bottom"
+        technique: "Hip escape guard replacement"
+        steps:
+          - "Frame against the opponent"
+          - "Shrimp hips away"
+          - "Insert knee"
+          - "Recover guard"
+        rationale: []
+        offense: []
+        defense: []
+        transitions: []
+        drills: []
+        videos:
+          - label: "TeachMeGrappling 1"
+            url: "https://youtu.be/9-nrRjiu59k"
+          - label: "TeachMeGrappling 2"
+            url: "https://youtu.be/83xM4nO95pI"
+          - label: "Lachlan Giles"
+            url: "https://youtu.be/swEcP2QWHs8"
+
+      - position: "Side control bottom"
+        technique: "Elbow push escape"
+        steps:
+          - "Frame on opponent’s elbow"
+          - "Push to create space"
+          - "Hip escape"
+          - "Recover guard"
+        rationale: []
+        offense: []
+        defense: []
+        transitions: []
+        drills: []
+        videos:
+          - label: "Stephan Kesting"
+            url: "https://youtu.be/STPl8FR7FXA"
+
+      - position: "Side control bottom"
+        technique: "Ghost escape"
+        steps:
+          - "Frame under the opponent"
+          - "Bridge and turn"
+          - "Slip out behind"
+        rationale: []
+        offense: []
+        defense: []
+        transitions: []
+        drills: []
+        videos:
+          - label: "TeachMeGrappling"
+            url: "https://youtu.be/6ZKFobk8vOQ"
+
+      - position: "Inside guard"
+        technique: "Guard pass"
+        steps:
+          - "Control hips"
+          - "Open the guard"
+          - "Pass to dominant position"
+        rationale: []
+        offense: []
+        defense: []
+        transitions: []
+        drills: []
+        videos:
+          - label: "JJ Machado"
+            url: "https://youtu.be/IJx92rHqtfg"
+          - label: "Matt Arroyo"
+            url: "https://youtu.be/4KWVgQ_2szE"
+
+      - position: "Half guard bottom"
+        technique: "Clamp guard from bottom of half"
+        steps:
+          - "Control opponent’s posture"
+          - "Lock legs tightly"
+          - "Prevent pass"
+        rationale: []
+        offense: []
+        defense: []
+        transitions: []
+        drills: []
+        videos:
+          - label: "TeachMeGrappling"
+            url: "https://youtu.be/bsA-GBc9Eds"
+
+      - position: "Half guard bottom"
+        technique: "Underhook back take"
+        steps:
+          - "Secure underhook"
+          - "Come up to knees"
+          - "Circle to the back"
+        rationale: []
+        offense: []
+        defense: []
+        transitions: []
+        drills: []
+        videos:
+          - label: "TeachMeGrappling"
+            url: "https://youtu.be/jODA4_k61L8"
+
+      - position: "Half guard bottom"
+        technique: "Foot sweep"
+        steps:
+          - "Control opponent’s balance"
+          - "Off-balance with foot"
+          - "Complete the sweep"
+        rationale: []
+        offense: []
+        defense: []
+        transitions: []
+        drills: []
+        videos:
+          - label: "TeachMeGrappling"
+            url: "https://youtu.be/J8OxuvhxXlo"
+
+      - position: "Late submission escape"
+        technique: "Knee on belly escape"
+        steps:
+          - "Frame against hips"
+          - "Bridge and shrimp"
+          - "Recover guard"
+        rationale: []
+        offense: []
+        defense: []
+        transitions: []
+        drills: []
+        videos:
+          - label: "TeachMeGrappling"
+            url: "https://youtu.be/Pk3EMJely7Y"
+
+      - position: "Late submission escape"
+        technique: "Ankle trap armbar escape"
+        steps:
+          - "Trap the ankle"
+          - "Stack opponent"
+          - "Pull arm free"
+        rationale: []
+        offense: []
+        defense: []
+        transitions: []
+        drills: []
+        videos:
+          - label: "TeachMeGrappling 1"
+            url: "https://youtu.be/N3kdR-SKvtI"
+          - label: "TeachMeGrappling 2"
+            url: "https://youtu.be/dTFyB1issmo"
+
+      - position: "Late submission escape"
+        technique: "Triangle late escape"
+        steps:
+          - "Posture and create space"
+          - "Stack opponent"
+          - "Extract head"
+        rationale: []
+        offense: []
+        defense: []
+        transitions: []
+        drills: []
+        videos:
+          - label: "Lachlan Giles"
+            url: "https://youtu.be/Ss49jnCob0w"
+          - label: "BJJ Fanatics (Garry Tonon)"
+            url: "https://youtu.be/od-lcD_34f8"
+
+  - title: "Other BJJ Techniques"
+    rows:
+      - position: "Takedowns"
+        technique: "Takedowns"
+        steps:
+          - "Set up grips and stance"
+          - "Break opponent's balance"
+          - "Execute throw or sweep"
+        rationale: []
+        offense: []
+        defense: []
+        transitions: []
+        drills: []
+        videos:
+          - label: "Judo (Grapple Media)"
+            url: "https://youtu.be/dVbD9SpAjAw"
+          - label: "Slide-by (TMG)"
+            url: "https://youtu.be/kL6XnDDCFK8"
+          - label: "Hip throw (TMG)"
+            url: "https://youtu.be/Uq8NXwT9bDU"
+          - label: "Clinch bodywork (TMG)"
+            url: "https://youtu.be/EVVdF8YPy1Y"
+          - label: "Uchi mata koichi combo (Higashi)"
+            url: "https://youtu.be/EVVdF8YPy1Y"
+          - label: "Koshi guruma, ogoshi, seoi nage (Skyhook)"
+            url: "https://youtu.be/o9vyWn1ZBNs"
+          - label: "TeachMeGrappling"
+            url: "https://youtu.be/N65JcAwFsdk"
+
+      - position: "Bottom of turtle"
+        technique: "Bottom of turtle"
+        steps:
+          - "Establish base"
+          - "Protect neck and arms"
+          - "Escape or sweep"
+        rationale: []
+        offense: []
+        defense: []
+        transitions: []
+        drills: []
+        videos:
+          - label: "Peter Mettler Martial Arts"
+            url: "https://youtu.be/R0AlwoWcXHA"
+
+      - position: "Attacking sitting Guard"
+        technique: "Attacking sitting Guard"
+        steps:
+          - "Control opponent’s posture"
+          - "Set up submissions or sweeps"
+          - "Transition to dominant position"
+        rationale: []
+        offense: []
+        defense: []
+        transitions: []
+        drills: []
+        videos:
+          - label: "JJ Machado"
+            url: "https://youtu.be/Df54qkVg-Ec"
+          - label: "Toro Bravo"
+            url: "https://youtu.be/7z8ZeyZl2t8"
+
+      - position: "Butterfly guard"
+        technique: "Butterfly guard"
+        steps:
+          - "Insert hooks and control arms"
+          - "Off-balance opponent"
+          - "Execute sweep or submission"
+        rationale: []
+        offense: []
+        defense: []
+        transitions: []
+        drills: []
+        videos:
+          - label: "TeachMeGrappling"
+            url: "https://youtu.be/r_7LI5rE_ec"
+          - label: "Marcelo Garcia by Kenny Florian"
+            url: "https://youtu.be/WB9_9TgcH1o"
+
+      - position: "Gift wrap"
+        technique: "Gift wrap"
+        steps:
+          - "Control opponent’s arm and posture"
+          - "Lock position"
+          - "Attack with submissions or transitions"
+        rationale: []
+        offense: []
+        defense: []
+        transitions: []
+        drills: []
+        videos:
+          - label: "TeachMeGrappling"
+            url: "https://youtu.be/ZFjvOBM9ag"
+          - label: "The Happy Pill Project"
+            url: "https://youtu.be/XiGjkaErRZc"
+          - label: "JJ Champloo"
+            url: "https://youtu.be/igMiqxNplpE"
+          - label: "JJ Knight"
+            url: "https://youtu.be/vMlSjPhsMj8"
+          - label: "Brian Glick"
+            url: "https://youtu.be/5bw7poxVJ1E"
+
+      - position: "Clamp guard"
+        technique: "Clamp guard"
+        steps:
+          - "Lock legs around opponent"
+          - "Control posture"
+          - "Sweep or submit"
+        rationale: []
+        offense: []
+        defense: []
+        transitions: []
+        drills: []
+        videos:
+          - label: "Brian Glick 1"
+            url: "https://youtu.be/Y3CJAMifi7E"
+          - label: "Brian Glick 2"
+            url: "https://youtu.be/l_EzwrPdvGE"
+          - label: "Brian Glick 3"
+            url: "https://youtu.be/wYBK1vKXyIE"
+          - label: "Brian Glick 4"
+            url: "https://youtu.be/IceuCNbhJw0"
+          - label: "TeachMeGrappling"
+            url: "https://youtu.be/QJIMC9JiaXY"
+          - label: "Jaramillo"
+            url: "https://youtu.be/ZmZTZQYuNZs"
+          - label: "Danaher"
+            url: "https://youtu.be/gQWXO_L0jbU"
+
+      - position: "Leg stapling"
+        technique: "Leg stapling"
+        steps:
+          - "Control opponent’s leg"
+          - "Staple to the mat"
+          - "Transition to submission or pin"
+        rationale: []
+        offense: []
+        defense: []
+        transitions: []
+        drills: []
+        videos:
+          - label: "Leg ridding 1"
+            url: "https://youtu.be/CkBEvF-71qY"
+          - label: "Leg ridding 2"
+            url: "https://youtu.be/BBMuYMZM-FM"
+          - label: "Leg ridding 3"
+            url: "https://youtu.be/xJL9VeEbcVs"
+          - label: "Leg stapling 1"
+            url: "https://youtu.be/AqW4VcP1QZo"
+          - label: "Leg stapling 2"
+            url: "https://youtu.be/KayM0L6g2Hw"
+          - label: "Lachlan Giles"
+            url: "https://youtu.be/MTR7DaNMHVo"
+          - label: "Ruotolo Brothers"
+            url: "https://youtu.be/vZvc5t_e2LI"
+          - label: "TeachMeGrappling"
+            url: "https://youtu.be/j-CPq0IkcjY"
+          - label: "Focused Fight Team"
+            url: "https://youtu.be/xJL9VeEbcVs"
+          - label: "The art of pinning (Craig Jones)"
+            url: "https://youtu.be/Z905rtKVOaA"
+
+      - position: "Leg locks"
+        technique: "Leg locks"
+        steps:
+          - "Control opponent’s leg"
+          - "Isolate joint"
+          - "Apply submission safely"
+        rationale: []
+        offense: []
+        defense: []
+        transitions: []
+        drills: []
+        videos:
+          - label: "LessImpressedMoreInvolved 1"
+            url: "https://youtu.be/1xAFbNGMoa8"
+          - label: "LessImpressedMoreInvolved 2"
+            url: "https://youtu.be/nB6rdaGnswM"
+          - label: "TeachMeGrappling"
+            url: "https://youtu.be/RvPyukNsaOU"
+
+      - position: "Defensive BJJ"
+        technique: "Defensive BJJ"
+        steps:
+          - "Maintain base and posture"
+          - "Frame and escape threats"
+          - "Look for counter opportunities"
+        rationale: []
+        offense: []
+        defense: []
+        transitions: []
+        drills: []
+        videos:
+          - label: "Overview"
+            url: "https://youtu.be/HYON7oAvB2s"
+          - label: "Priit Mikhelson"
+            url: "https://youtu.be/jC6uFGCCLRY"
+          - label: "Chris Paine"
+            url: "https://youtu.be/qX30Wx5glJg"
+
+      - position: "North south choke"
+        technique: "North south choke"
+        steps:
+          - "Secure north-south position"
+          - "Control head and arm"
+          - "Apply choke safely"
+        rationale: []
+        offense: []
+        defense: []
+        transitions: []
+        drills: []
+        videos:
+          - label: "BJJ Fanatics (Marcelo Garcia)"
+            url: "https://youtu.be/VkI7wuhN2Ps"
+          - label: "Marcelo Garcia Jiu-Jitsu"
+            url: "https://youtu.be/ExRy6o0fbAM"
+
+      - position: "Chain guard passing"
+        technique: "Chain guard passing"
+        steps:
+          - "Transition through multiple passes"
+          - "Maintain control of opponent"
+          - "Secure dominant position"
+        rationale: []
+        offense: []
+        defense: []
+        transitions: []
+        drills: []
+        videos:
+          - label: "1-min JJ"
+            url: "https://youtu.be/NyXB1gguq8w"
+
+      - position: "Mobility"
+        technique: "Mobility"
+        steps:
+          - "Perform hip mobility exercises"
+          - "Stretch hamstrings and joints"
+          - "Practice daily movement drills"
+        rationale: []
+        offense: []
+        defense: []
+        transitions: []
+        drills: []
+        videos:
+          - label: "Movement Parallels Life Hip Mobility"
+            url: "https://youtu.be/ZMLiCnDJYuM"
+          - label: "YogaBody Deep squat"
+            url: "https://youtu.be/8c92VH5A_l0"
+          - label: "Hamstring"
+            url: "https://youtu.be/2omWte2UAbQ"
+          - label: "Preventing injuries"
+            url: "https://youtu.be/_5Vv7zhs76o"
+          - label: "5-min daily stretch"
+            url: "https://youtu.be/sOuKeVuej9E"
+
