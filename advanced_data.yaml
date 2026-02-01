@@ -26,7 +26,7 @@ tables:
         - "Turn to the same direction, towards your free leg. Go to your bottom knee, face the ground and slightly pull your trapped knee past their knee line."
         - "One your knee is past their knee line, it safe for you to back step and face them. Do not back step if you have not freed your knee, and never go against the HEEL HOOK GRIP. You may tear your knee’s ligaments."
       dates: ["2026-01-30"]
-    - position: "IRIMI ASHI"
+    - position: "OPEN ASHI"
       category: "LEG ENTANGLEMENTS"
       technique: "OPEN ASHI EARLY ESCAPE"
       steps:
@@ -248,14 +248,14 @@ tables:
         - "HEEL HOOK GRIP provides less control but they can blow out their own knee if they roll to the wrong direction."
         - "ANKLE LOCK GRIP provide much more control and there is no risk for them to blow their knee out."
       dates: ["2026-01-28"]
-    - position: "IRIMI ASHI"
+    - position: "OPEN ASHI"
       category: "LEG ENTANGLEMENTS"
       technique: "DOUBLE SEATED INSIDE SHIN POSITION → OPEN ASHI"
       steps:
         - "Both sitting and facing each other with slight bent legs."
         - "Your legs are inside theirs, knees out. You grab their ankles."
       dates: ["2026-01-19", "2026-01-23", "2026-01-24"]
-    - position: "IRIMI ASHI"
+    - position: "OPEN ASHI"
       category: "LEG ENTANGLEMENTS"
       technique: "OPEN ASHI → REAP → CROSS INSIDE ASHI"
       steps:
@@ -284,12 +284,12 @@ tables:
       technique: "COMBAT BASE IRIMI ASHI → DIAGONAL ASHI"
       steps:
       dates: ["2026-01-21", "2026-01-23"]
-    - position: "IRIMI ASHI"
+    - position: "OPEN ASHI"
       category: "LEG ENTANGLEMENTS"
       technique: "OPEN ASHI → REAP → DIAGONAL ASHI"
       steps:
       dates: ["2026-01-23"]
-    - position: "IRIMI ASHI"
+    - position: "OPEN ASHI"
       category: "LEG ENTANGLEMENTS"
       technique: "OPEN ASHI → GET UP → BACK EXPOSURE"
       steps:
@@ -304,7 +304,7 @@ tables:
         - "Lay on your back, bridge, WIDE WEDGE both feet."
         - "TECHNICAL GET UP to build height and get BACK EXPOSURE."
       dates: ["2026-01-23"]
-    - position: "IRIMI ASHI"
+    - position: "OPEN ASHI"
       category: "LEG ENTANGLEMENTS"
       technique: "Sequence: DOUBLE SEATED INSIDE SHIN POSITION → OPEN ASHI → REAP → DIAGONAL ASHI → MATRIX HOOK → BACK TAKE"
       steps:
@@ -778,11 +778,6 @@ tables:
         - "Let go of their trapped foot and bring your top leg over and back. Windshield wipe that foot and come up with a GRAPPLER’s LIFT."
         - "Keep the SHIN PIN, catch their hips, and build height into a BODY LOCK to a SHIN PIN."
       dates: ["2026-01-19"]
-    - position: "IRIMI ASHI"
-      category: "LEG ENTANGLEMENTS"
-      technique: "OPEN ASHI"
-      steps:
-      dates: ["2026-01-19"]
     - position: "OUTSIDE ASHI"
       category: "LEG ENTANGLEMENTS"
       technique: "IRIMI ASHI → OUTSIDE ASHI"
@@ -914,7 +909,7 @@ tables:
         - "If they try to get up and go away, throw your outside foot over their trapped leg and get your outside shoe lace under their hamstring, into a DIAGONAL ASHI."
         - "You can post on your back elbow, shrimp out and get a BUTTERFLY ASHI."
         - "You can also point your inside knee up and windshield wipe your outside leg to do an IRIMI ASHI GET UP."
-      dates: ["2026-01-16"]
+      dates: ["2026-01-16", "2026-01-19"]
     - position: "OUTSIDE ASHI"
       category: "LEG ENTANGLEMENTS"
       technique: "OUTSIDE ASHI DEFENSE GET UP"
