@@ -21,14 +21,12 @@ function getPageNameRoot() {
 async function getLastModifiedDate(slot) {
   try {
     const response = await fetch(getPageNameRoot() + "_data.yaml");
-    const header = response.headers.get('Last-Modified');
-    if (!header) {
+    const lastModified = response.headers.get('Last-Modified');
+    if (!lastModified) {
       slot.textContent = 'an unknown date';
       return;
     }
-    const lastModified = new Date(header);
-    /* slot.textContent = lastModified.toISOString().split("T")[0]; */
-    slot.textContent = lastModified.toISOString();
+    slot.textContent = (new Date(lastModified)).toLocaleDateString('en-CA');
   } catch (err) {
     console.error(err);
     slot.textContent = 'an unknown date';
