@@ -27,7 +27,8 @@ async function getLastModifiedDate(slot) {
       return;
     }
     const lastModified = new Date(header);
-    slot.textContent = lastModified.toISOString().split("T")[0];
+    /* slot.textContent = lastModified.toISOString().split("T")[0]; */
+    slot.textContent = lastModified.toISOString();
   } catch (err) {
     console.error(err);
     slot.textContent = 'an unknown date';
