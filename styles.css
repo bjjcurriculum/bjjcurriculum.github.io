@@ -150,7 +150,8 @@ footer {
 }
 
 .article-title,
-.table-title {
+.table-title,
+.tree-title {
   font-weight: bold;
   font-size: 1.3rem;
   margin-bottom: 8px;
