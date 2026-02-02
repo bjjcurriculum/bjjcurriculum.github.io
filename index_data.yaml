@@ -39,12 +39,12 @@ articles:
       - "Gi chokes: cross collar, bow and arrow."
       - "Other submissions: Ezekiel, calf slicer, bicep slicer, wrist lock."
 
-  - title: "Suggested YouTube Channels"
+  - title: "YouTube Channels"
     items:  
+      - { "Henry Akins' Hidden Jiu-Jitsu":"https://www.youtube.com/@HiddenJiuJitsu" }
+      - { "Chris Burns' The BJJ Project":"https://www.youtube.com/@the.BJJproject" }
       - { "Teach Me Grappling":"https://www.youtube.com/@TeachMeGrappling" }
       - { "BJJ Globetrotters in Action":"https://www.youtube.com/@BJJGlobetrotters" }
-      - { "The Happy Pill Project":"https://www.youtube.com/@thehappypillproject" }
-      - [ { "Less Impressed More Involved BJJ":"https://www.youtube.com/@LIMIBJJ" }, " (data-based BJJ analysis)." ]
 
 tables:
   - title: "Test Table"
