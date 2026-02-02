@@ -21,12 +21,13 @@ function getPageNameRoot() {
 async function getLastModifiedDate(slot) {
   try {
     const response = await fetch(getPageNameRoot() + "_data.yaml");
-    const lastModified = response.headers.get('Last-Modified');
-    if (!lastModified) {
+    const header = response.headers.get('Last-Modified');
+    if (!header) {
       slot.textContent = 'an unknown date';
       return;
     }
-    slot.textContent = (new Date(lastModified)).toLocaleDateString('en-CA');
+    const lastModified = new Date(header);
+    slot.textContent = lastModified.toISOString().split("T")[0];
   } catch (err) {
     console.error(err);
     slot.textContent = 'an unknown date';
@@ -185,140 +186,158 @@ function isLinkObject(obj) {
 
 /* ---------------- LOAD TABLES CONTENT ------------------- */
 
+
 function renderTable(table, container) {
-    
   const wrapper = document.createElement("div");
-  wrapper.className = "table-wrapper";
+  wrapper.className = "tree-wrapper";
+
+  /* ---------- TITLE ---------- */
 
   const title = document.createElement("div");
-  title.className = "table-title";
-  title.innerHTML = `<div class="title-inner"><span class="chevron">${defaultChevron()}</span>${table.title}</div>`;
+  title.className = "tree-title";
+  title.innerHTML = `
+    <span class="chevron">${defaultChevron()}</span>${table.title}
+  `;
   wrapper.appendChild(title);
+
+  /* ---------- SEARCH ---------- */
 
   const searchBox = document.createElement("div");
   searchBox.className = "search-box hidden";
   searchBox.innerHTML = `<input type="text" placeholder="Search..." />`;
   wrapper.appendChild(searchBox);
 
-  const tbl = document.createElement("table");
-  tbl.className = "hidden";
-  tbl.innerHTML = `
-    <thead>
-      <tr>
-        <th class="col-position">Position</th>
-        <th class="col-technique">Technique</th>
-        <th class="col-details">Details</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  `;
-  wrapper.appendChild(tbl);
+  /* ---------- TREE ROOT ---------- */
+
+  const tree = document.createElement("div");
+  tree.className = "tree hidden";
+  wrapper.appendChild(tree);
   container.appendChild(wrapper);
 
-  const tbody = tbl.querySelector("tbody");
-  const grouped = groupBy(table.rows, "position");
+  /* ---------- DATA GROUPING ---------- */
 
-  Object.entries(grouped).forEach(([position, rows]) => {
-    const posRow = document.createElement("tr");
-    posRow.innerHTML = `
-      <td class="position"><span class="chevron">${defaultChevron()}</span>${position}</td>
-      <td></td>
-      <td></td>
-    `;
-    tbody.appendChild(posRow);
+  const byCategory = groupBy(table.rows, "category");
 
-    posRow.addEventListener("click", () => toggleGroup(posRow, rows.length));
+  Object.entries(byCategory).forEach(([category, catRows]) => {
+    const catNode = createNode("category", category, catRows.length);
+    tree.appendChild(catNode.el);
 
-    rows.forEach(r => {
-      const techRow = document.createElement("tr");
-      techRow.className = "hidden";
-      techRow.innerHTML = `
-        <td></td>
-        <td class="technique"><span class="chevron">${defaultChevron()}</span>${r.technique}</td>
-        <td class="details hidden">${renderDetails(r)}</td>
-      `;
-      tbody.appendChild(techRow);
+    const byPosition = groupBy(catRows, "position");
 
-      techRow.querySelector(".technique").addEventListener("click", e => {
-        e.stopPropagation();
-        toggleDetails(techRow);
+    Object.entries(byPosition).forEach(([position, posRows]) => {
+      const posNode = createNode("position", position, posRows.length);
+      catNode.children.appendChild(posNode.el);
+
+      posRows.forEach(r => {
+        const techNode = createNode("technique", r.technique);
+        posNode.children.appendChild(techNode.el);
+
+        const details = document.createElement("div");
+        details.className = "details hidden";
+        details.innerHTML = renderDetails(r);
+        techNode.el.appendChild(details);
+
+        techNode.label.addEventListener("click", e => {
+          e.stopPropagation();
+          toggleChevron(techNode.label);
+          details.classList.toggle("hidden");
+        });
       });
     });
   });
 
+  /* ---------- COLLAPSE / EXPAND ---------- */
+
   title.addEventListener("click", () => {
     toggleChevron(title);
-    tbl.classList.toggle("hidden");
+    tree.classList.toggle("hidden");
     searchBox.classList.toggle("hidden");
   });
+
+  /* ---------- SEARCH ---------- */
 
   searchBox.querySelector("input").addEventListener("input", e => {
     const term = e.target.value.toLowerCase();
 
-    let currentPositionRow = null;
-    let positionHasMatch = false;
+    const nodes = [...tree.querySelectorAll(".node")];
 
-    [...tbody.rows].forEach(row => {
-      // POSITION ROW
-      if (row.querySelector(".position")) {
-        // Reset previous position
-        if (currentPositionRow) {
-          currentPositionRow.style.display = positionHasMatch ? "" : "none";
-        }
-
-        currentPositionRow = row;
-        positionHasMatch = false;
-
-        row.style.display = ""; // tentatively show
-        return;
-      }
-
-      // TECHNIQUE ROW
-      const detailsCell = row.querySelector(".details");
-      const text = row.textContent.toLowerCase();
-
-      /* const match = text.includes(term); */
+    nodes.forEach(node => {
+      const text = node.textContent.toLowerCase();
       const match = matchesSearch(text, term);
 
-      row.style.display = match ? "" : "none";
+      node.style.display = match || !term ? "" : "none";
 
-      if (match) {
-        positionHasMatch = true;
-
-        // Force parents open
-        row.classList.remove("hidden");
-        detailsCell?.classList.remove("hidden");
+      if (match && term) {
+        expandAncestors(node);
       }
     });
 
-    // Handle last position
-    if (currentPositionRow) {
-      currentPositionRow.style.display = positionHasMatch ? "" : "none";
-    }
-
-    // Empty search → reset to collapsed state
     if (!term) {
-      resetCollapseState(tbody);
+      collapseAll(tree);
     }
   });
 
-  container.appendChild(wrapper);
+  /* ---------- HELPERS ---------- */
+
+  function createNode(type, label, count) {
+    const el = document.createElement("div");
+    el.className = `node ${type}`;
+
+    const labelEl = document.createElement("div");
+    labelEl.className = "label";
+    labelEl.innerHTML = `
+      <span class="chevron">${defaultChevron()}</span>
+      ${label}${count ? ` (${count})` : ""}
+    `;
+
+    const children = document.createElement("div");
+    children.className = "children hidden";
+
+    labelEl.addEventListener("click", () => {
+      toggleChevron(labelEl);
+      children.classList.toggle("hidden");
+    });
+
+    el.appendChild(labelEl);
+    el.appendChild(children);
+
+    return { el, label: labelEl, children };
+  }
+
+  function expandAncestors(node) {
+    let current = node.parentElement;
+    while (current && current !== tree) {
+      if (current.classList.contains("children")) {
+        current.classList.remove("hidden");
+        const label = current.previousElementSibling;
+        label && (label.querySelector(".chevron").textContent = "▾ ");
+      }
+      current = current.parentElement;
+    }
+  }
+
+  function collapseAll(root) {
+    root.querySelectorAll(".children").forEach(c => c.classList.add("hidden"));
+    root.querySelectorAll(".chevron").forEach(c => c.textContent = defaultChevron());
+  }
 }
+
 
 /* --------- HELPER FUNCTIONS  --------- */
 
 function resetCollapseState(tbody) {
   [...tbody.rows].forEach(row => {
-    if (row.querySelector(".position")) {
-      row.style.display = "";
-      row.querySelector(".chevron").textContent = defaultChevron();
-    } else {
-      row.style.display = "";
+    row.style.display = "";
+    row.classList.remove("open");
+
+    if (!row.classList.contains("category-row")) {
       row.classList.add("hidden");
-      row.querySelector(".details")?.classList.add("hidden");
-      const chev = row.querySelector(".chevron");
-      if (chev) chev.textContent = defaultChevron();
     }
+
+    row.querySelector(".details")?.classList.add("hidden");
+
+    const chev = row.querySelector(".chevron");
+    if (chev) chev.textContent = defaultChevron();
   });
 }
 
@@ -374,16 +393,32 @@ function matchesSearch(text, query) {
   return true;
 }
 
-function toggleGroup(posRow, count) {
-  toggleChevron(posRow);
-  let row = posRow.nextElementSibling;
-  for (let i = 0; i < count; i++) {
-    row.classList.toggle("hidden");
-    row = row.nextElementSibling;
+function toggleGroup(row, stopClasses = []) {
+  const isOpening = row.classList.contains("open") === false;
+
+  row.classList.toggle("open");
+
+  let next = row.nextElementSibling;
+
+  while (next) {
+    if (stopClasses.some(cls => next.classList.contains(cls))) break;
+
+    next.classList.toggle("hidden", !isOpening);
+
+    // Force-collapse children when closing
+    if (!isOpening) {
+      next.classList.remove("open");
+      next.querySelector(".details")?.classList.add("hidden");
+      const chev = next.querySelector(".chevron");
+      if (chev) chev.textContent = defaultChevron();
+    }
+
+    next = next.nextElementSibling;
   }
 }
 
 function toggleDetails(row) {
+  row.classList.toggle("open");
   toggleChevron(row.querySelector(".technique"));
   row.querySelector(".details").classList.toggle("hidden");
 }
@@ -400,8 +435,9 @@ function toggleChevron(el) {
 
 function groupBy(arr, key) {
   return arr.reduce((acc, obj) => {
-    acc[obj[key]] = acc[obj[key]] || [];
-    acc[obj[key]].push(obj);
+    const k = typeof key === "function" ? key(obj) : obj[key];
+    acc[k] = acc[k] || [];
+    acc[k].push(obj);
     return acc;
   }, {});
 }
@@ -420,30 +456,55 @@ function renderDetails(r) {
 
   sections.forEach(([title, list]) => {
     if (list && list.length) {
-      html += `<h4>${title}</h4><ul>` +
+      html += `<h4>▶ ${title}</h4><ul>` +
         list.map(i => `<li>${i}</li>`).join("") +
         `</ul>`;
     }
   });
 
   if (r.videos?.length) {
-    html += `<h4>Videos</h4><ul>` +
+    /* html += `<h4>Videos</h4><ul>` +
       r.videos.map(v => `<li><a href="${v.url}" target="_blank">${v.label}</a></li>`).join("") +
-      `</ul>`;
+      `</ul>`; */
+    html += `<p>▶️` +
+      r.videos.map(v => ` <a href="${v.url}" target="_blank">${v.label}</a>`).join("") +
+      `</p>`;
   }
 
   if (r.dates?.length) {
-    html += `<h4>Dates</h4><p>${formatDates(r.dates)}</p>`;
+    html += `<p>📅 ${formatDates(r.dates)}</p>`;
+    //html += `<h4>Dates</h4><p>${formatDates(r.dates)}</p>`;
   }
 
   return html || "";
 }
 
 function formatDates(dates) {
+  if (!dates || dates.length === 0) return '';
   if (dates.length === 1) return dates[0];
-  const [start, end] = dates;
-  if (start.slice(0, 7) === end.slice(0, 7)) {
-    return `${start}/${end.slice(8)}`;
+
+  let result = '';
+  let prev = null;
+
+  for (const date of dates) {
+    const [y, m, d] = date.split('-');
+
+    if (!prev) {
+      result += date;
+    } else {
+      const sameYear = y === prev.y;
+      const sameMonth = sameYear && m === prev.m;
+
+      if (sameMonth) {
+        // only day changes
+        result += `/${d}`;
+      } else {
+        // month or year changes → comma + full date
+        result += `, ${date}`;
+      }
+    }
+    prev = { y, m, d };
   }
-  return `${start}/${end.slice(5)}`;
+
+  return result;
 }
