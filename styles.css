@@ -244,6 +244,22 @@ td {
   width: 40%;
 }
 
+/* ----- TREE NODES ----------*/
+
+.node { margin-left: 0; }
+.node.position { margin-left: 1rem; }
+.node.technique { margin-left: 2rem; }
+
+.label {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.details {
+  margin-left: 3.5rem;
+  font-weight: normal;
+}
+
 /* ----- CLICKABLE ROWS ----- */
 .position,
 .technique {
