@@ -455,7 +455,7 @@ function renderDetails(r) {
 
   sections.forEach(([title, list]) => {
     if (list && list.length) {
-      html += `<h4>▶ ${title}</h4><ul>` +
+      html += `<h4>≡ ${title}</h4><ul>` +
         list.map(i => `<li>${i}</li>`).join("") +
         `</ul>`;
     }
@@ -465,8 +465,8 @@ function renderDetails(r) {
     /* html += `<h4>Videos</h4><ul>` +
       r.videos.map(v => `<li><a href="${v.url}" target="_blank">${v.label}</a></li>`).join("") +
       `</ul>`; */
-    html += `<p>▶️` +
-      r.videos.map(v => ` <a href="${v.url}" target="_blank">${v.label}</a>`).join("") +
+    html += `<p>▶️ ` +
+      r.videos.map(v => `<a href="${v.url}" target="_blank">${v.label}</a>`).join(" | ") +
       `</p>`;
   }
 
