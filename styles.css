@@ -1,45 +1,152 @@
-html, body {
+/* =========================================================
+   FOUNDATION – SAFE FOR MOBILE & DESKTOP
+========================================================= */
+
+/* 1. Box sizing sanity */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Page baseline */
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
   height: 100%;
-  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
   color: #111;
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
+  background: #fff;
 }
 
+/* 3. Layout container */
 main {
-  max-width: 900px;
   width: 100%;
-  margin: 32px auto;
-  padding: 0 16px;
-  flex: 1; /* expands to fill empty space */
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
-footer {
-  background: black;
-  color: white;
+/* 4. Media defaults */
+img,
+video,
+canvas,
+svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
+
+/* 5. Typography safety */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0.6em 0 0.4em;
+  line-height: 1.25;
+}
+
+p {
+  margin: 0.4em 0 0.8em;
+}
+
+/* 6. Lists */
+ul,
+ol {
+  padding-left: 1.25rem;
+  margin: 0.4em 0 0.8em;
+}
+
+/* 7. Links */
+a {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 8. Forms */
+input,
+button,
+select,
+textarea {
+  font: inherit;
+}
+
+/* 9. Touch targets (mobile-friendly) */
+button,
+[role="button"],
+input,
+select {
+  min-height: 44px;
+}
+
+/* 10. Tables (mobile safe) */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.5rem;
+  vertical-align: top;
+}
+
+/* =========================================================
+   RESPONSIVE BREAKPOINT (DESKTOP ENHANCEMENT)
+========================================================= */
+
+@media (min-width: 900px) {
+  body {
+    font-size: 16px;
+  }
+
+  main {
+    padding: 2rem;
+  }
+}
+
 
 /* ---------- TITLE BAR & COLORS ---------- */
 
 .title-bar {
   position: relative;
-
   background-color: black;
   padding: 24px;
   text-align: center; 
 }
 
 .title-bar h1 {
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  line-height: 1.1;
+  text-align: center;
   margin: 0;
-  font-size: 2.2rem;
   font-weight: bold;
+}
+
+.title-bar h1 span {
+  display: inline-block;
 }
 
 .gradient-text {
@@ -126,186 +233,6 @@ footer {
   display: flex;
 }
 
-/* ---------- CHEVRONS ---------------------- */
-.chevron {
-  font-size: 1.1rem;
-  color: #666;
-  transition: transform 0.2s ease;
-}
-
-/* ---------- COLLAPSIBLE ARTICLES ---------- */
-
-.article {
-  width: 100%; /* max width from the start */
-  margin-bottom: 24px;
-}
-
-.article a {
-  color: #2f80ed;
-  text-decoration: none;
-}
-
-.article a:hover {
-  text-decoration: underline;
-}
-
-.article-title,
-.table-title,
-.tree-title {
-  font-weight: bold;
-  font-size: 1.3rem;
-  margin-bottom: 8px;
-  cursor: pointer;
-
-  display: flex;
-  align-items: center;
-  gap: 8px;
-
-  width: 100%; /* container take their max available width from the start */
-  box-sizing: border-box; /* but still respond to window resizing */
-}
-
-.title-inner {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-
-  padding-bottom: 6px;
-  border-bottom: 2px solid #ccc;
-}
-
-/* Collapsed by default */
-.article-content {
-  display: none;
-}
-
-.article-content.open {
-  display: block;
-}
-
-.article ul {
-  padding-left: 24px;
-}
-
-.article li {
-  margin-bottom: 8px;
-  line-height: 1.5;
-}
-
-/* --------------- TABLE ---------------- */
-
-.table-wrapper { /* TABLE CONTAINER */
-  width: 100%; /* max width from the start */
-  margin: 0 auto 2rem auto;
-}
-
-.search-box {
-  margin: 0.75rem 0 1rem 0;
-}
-
-.search-box input {
-  width: 100%;
-  max-width: 350px;
-  padding: 0.45rem 0.6rem;
-  font-size: 0.9rem;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  table-layout: fixed;
-
-  /* border: 1px solid black; */
-}
-
-th {
-  text-align: left;
-  padding: 0.6rem;
-  border-bottom: 2px solid #ccc;
-  font-size: 0.9rem;
-}
-
-td {
-  vertical-align: top;
-  padding: 0.6rem;
-  border-bottom: 1px solid #eee;
-  font-size: 0.9rem;
-}
-
-/* Fixed column widths */
-.col-position {
-  width: 30%;
-}
-
-.col-technique {
-  width: 30%;
-}
-
-.col-details {
-  width: 40%;
-}
-
-/* ----- TREE NODES ----------*/
-
-.node { margin-left: 0; }
-.node.position { margin-left: 1rem; }
-.node.technique { margin-left: 2rem; }
-
-.label {
-  cursor: pointer;
-  font-weight: bold;
-}
-
-.details {
-  margin-left: 3.5rem;
-  font-weight: normal;
-}
-
-/* ----- CLICKABLE ROWS ----- */
-.position,
-.technique {
-  cursor: pointer;
-  font-weight: 600;
-}
-
-/* ----- DETAILS ----- */
-.details {
-  font-weight: 400;
-  color: #666;
-}
-
-.details h4 {
-  margin: 0.4rem 0 0.2rem 0;
-  font-size: 0.85rem;
-  color: #111;
-}
-
-.details ul {
-  margin: 0.2rem 0 0.4rem 1.2rem;
-  padding: 0;
-}
-
-.details a {
-  color: #0066cc;
-  text-decoration: none;
-}
-
-/* ----- HIDDEN ----- */
-.hidden {
-  display: none;
-}
-
-/* ----- MOBILE ----- */
-@media (max-width: 700px) {
-  .table-wrapper {
-    max-width: 100%;
-  }
-
-  th.col-details {
-    display: none;
-  }
-}
-
 /*------------ FOOTER ---------- */
 
 .site-footer {
@@ -316,6 +243,8 @@ td {
   justify-content: space-between;
   align-items: center;
   font-family: Arial, sans-serif;
+  flex-wrap: wrap;
+  gap: 12px;
 }
 
 .footer-left {
@@ -342,4 +271,98 @@ td {
 
 .footer-right a:hover {
   text-decoration: underline;
+}
+
+/* ---------- COLLAPSIBLE ARTICLES ---------- */
+
+:root {
+  --accent: #1447E6;
+  --accent-soft: #f0f2f4;
+}
+
+summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+details.leaf,
+summary.node
+{
+  border: 3px solid var(--accent);
+  background-color: var(--accent-soft);
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--accent);
+  border-radius: 5px;
+  padding: 24px;
+  margin-bottom: 2px;
+}
+
+details.leaf {
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+details.leaf[open] {
+  border-color: #0d2fb3; /* var(--accent); */
+  background-color: var(--accent-soft);
+}
+
+details section,
+details details,
+details input
+{
+  margin-left: 1.5rem;
+}
+
+input {
+  accent-color: var(--accent);
+  caret-color: var(--accent);
+  border: 3px solid;
+  padding: 15px;
+  font-size: 1.5rem;
+  color: #1447E6;
+  border-radius: 5px;
+}
+
+details input {
+  background-color: #ffffff;
+}
+
+input::placeholder {
+  color: #9aa3c7;
+}
+
+.article ul {
+  padding-left: 24px;
+}
+
+.article li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+/* ----- DETAILS ----- */
+.details {
+  font-weight: 400;
+  color: #666;
+}
+
+.details h4 {
+  margin: 0.4rem 0 0.2rem 0;
+  font-size: 0.85rem;
+  color: #111;
+}
+
+.details ul {
+  margin: 0.2rem 0 0.4rem 1.2rem;
+  padding: 0;
+}
+
+.details a {
+  color: #0066cc;
+  text-decoration: none;
 }
