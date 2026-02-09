@@ -298,44 +298,7 @@ tables:
           url: "https://youtu.be/Pk3EMJely7Y"
 
     - position: "Half guard"
-      category: "Pin Escapes"
-      technique: "(Place holder)"
-
-    - position: "Full guard"
-      category: "Pin Escapes"
-      technique: "Standing guard escape"
-
-    - position: "Full guard"
-      category: "Pin Escapes"
-      technique: "Kneeling guard escape"
-
-    - position: "Turtle"
-      category: "Pin Escapes"
-      technique: "Slide-in reversal"
-
-    - position: "Turtle"
-      category: "Pin Escapes"
-      technique: "Sit out"
-
-    - position: "Turtle"
-      category: "Pin Escapes"
-      technique: "Makikomi roll"
-
-    - position: "Inside guard"
-      category: "Guard Retention"
-      technique: "Guard pass"
-      steps:
-        - "Control hips"
-        - "Open the guard"
-        - "Pass to dominant position"
-      videos:
-        - label: "JJ Machado"
-          url: "https://youtu.be/IJx92rHqtfg"
-        - label: "Matt Arroyo"
-          url: "https://youtu.be/4KWVgQ_2szE"
-
-    - position: "Half guard bottom"
-      technique: "Clamp guard from bottom of half"
+      technique: "Clamp guard"
       category: "Pin Escapes"
       steps:
         - "Control opponent’s posture"
@@ -345,7 +308,7 @@ tables:
         - label: "TeachMeGrappling"
           url: "https://youtu.be/bsA-GBc9Eds"
 
-    - position: "Half guard bottom"
+    - position: "Half guard"
       technique: "Underhook back take"
       category: "Pin Escapes"
       steps:
@@ -356,7 +319,7 @@ tables:
         - label: "TeachMeGrappling"
           url: "https://youtu.be/jODA4_k61L8"
 
-    - position: "Half guard bottom"
+    - position: "Half guard"
       technique: "Foot sweep"
       category: "Pin Escapes"
       steps:
@@ -366,6 +329,38 @@ tables:
       videos:
         - label: "TeachMeGrappling"
           url: "https://youtu.be/J8OxuvhxXlo"
+
+    - position: "Full guard"
+      category: "Pin Escapes"
+      technique: "Kneeling guard escape"
+      steps:
+        - "Control hips"
+        - "Open the guard"
+        - "Pass to dominant position"
+      videos:
+        - label: "JJ Machado"
+          url: "https://youtu.be/IJx92rHqtfg"
+        - label: "Matt Arroyo"
+          url: "https://youtu.be/4KWVgQ_2szE"
+
+    - position: "Full guard"
+      category: "Pin Escapes"
+      technique: "Standing guard escape"
+
+    - position: "Turtle"
+      category: "Pin Escapes"
+      technique: "Slide-in reversal"
+      videos:
+        - label: "O2 BJJ"
+          url: "https://youtu.be/2uf1tnzvluM"
+
+    - position: "Turtle"
+      category: "Pin Escapes"
+      technique: "Sit out"
+
+    - position: "Turtle"
+      category: "Pin Escapes"
+      technique: "Makikomi roll"
 
     - position: "Late submission escapes"
       technique: "Ankle trap armbar escape"
@@ -392,6 +387,85 @@ tables:
           url: "https://youtu.be/Ss49jnCob0w"
         - label: "BJJ Fanatics (Garry Tonon)"
           url: "https://youtu.be/od-lcD_34f8"
+
+    - position: "Late submission escapes"
+      category: "Pin Escapes"
+      technique: "Rear Naked Choke"
+      videos:
+        - label: "TeachMeGrappling"
+          url: "https://youtu.be/aGFstiSgxCo"
+
+    - position: "Guard passing"
+      category: "Attack systems"
+      technique: "Knee slice"
+
+    - position: "Guard passing"
+      category: "Attack systems"
+      technique: "Double under"
+
+    - position: "Guard passing"
+      category: "Attack systems"
+      technique: "Over under"
+
+    - position: "Guard passing"
+      category: "Attack systems"
+      technique: "Stack pass"
+      videos:
+        - label: "Lachlan Giles"
+          url: "https://youtu.be/bSfdlYpIs7g"
+
+    - position: "Guard passing"
+      category: "Attack systems"
+      technique: "Torreando"
+      videos:
+        - label: "TeachMeGrappling"
+          url: "https://youtu.be/ZMkGf1sP_90"
+
+    - position: "Half guard"
+      category: "Attack system"
+      technique: "Foot-wedge guard pass"
+
+    - position: "Half guard"
+      category: "Attack systems"
+      technique: "Hip-switch guard pass"
+  
+    - position: "Full guard"
+      category: "Attack systems"
+      technique: "Arm drag back take"
+      
+    - position: "Full guard"
+      category: "Attack systems"
+      technique: "Scissor sweep"
+
+    - position: "Full guard"
+      category: "Attack systems"
+      technique: "Hip bump sweep"
+      videos:
+        - label: "Craig Jones"
+          url: "https://youtu.be/fQDbxaK3ix8"
+
+    - position: "Full guard"
+      category: "Attack systems"
+      technique: "(No Gi) Cross collar choke"
+
+    - position: "Full guard"
+      category: "Attack systems"
+      technique: "Arm bar"
+
+    - position: "Full guard"
+      category: "Attack systems"
+      technique: "Triangle choke"
+
+    - position: "Full guard"
+      category: "Attack systems"
+      technique: "Kimura"
+      videos:
+        - label: "TeachMeGrappling"
+          url: "https://youtu.be/NQ7YnPSzvlM"
+
+    - position: "Full guard"
+      category: "Attack systems"
+      technique: "Guillotine"
 
   - title: "Other BJJ Techniques"
     rows:
