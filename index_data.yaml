@@ -82,13 +82,13 @@ tables:
     rows:
     - position: "Connections"
       category: "Core Principles"
-      technique: "Connection to self"
+      technique: "Connection to Self"
       steps: ["Posture"]
       videos: []
       
     - position: "Connections"
       category: "Core Principles"
-      technique: "Connection to ground"
+      technique: "Connection to Ground"
       steps: ["Base", "Hip escape frame"]
       videos:
         - label: "The BJJ Project"
@@ -96,16 +96,16 @@ tables:
 
     - position: "Connections"
       category: "Core Principles"
-      technique: "Connection to other"
+      technique: "Connection to Other"
 
     - position: "Connections"
       category: "Core Principles"
-      technique: "Disconnection from other"
+      technique: "Disconnection from Other"
       steps: ["Pinch knees, but do not sit on them."]
 
     - position: "Nudges"
       category: "Core Principles"
-      technique: "Weight distribution"
+      technique: "Weight Distribution"
       steps: ["Make yourself heavy","Use it for reversal"]
 
     - position: "Nudges"
@@ -114,11 +114,11 @@ tables:
 
     - position: "Nudges"
       category: "Core Principles"
-      technique: "Inside position"
+      technique: "Inside Position"
 
     - position: "Nudges"
       category: "Core Principles"
-      technique: "Push pull"
+      technique: "Push Pull"
 
     - position: "Nudges"
       category: "Core Principles"
@@ -129,14 +129,14 @@ tables:
       technique: "Dilemna"
       steps: ["Relevant to both pin escapes and attacks."]
 
-    - position: "Create space"
+    - position: "Create Space"
       category: "Core Moves"
       technique: "Shrimp"
       steps: ["Sliding shrimp.","Power shrimp: bridge and shrimp"]
 
-    - position: "Create space"
+    - position: "Create Space"
       category: "Core Moves"
-      technique: "Forward shrimp"
+      technique: "Forward Shrimp"
 
     - position: "Reversal"
       category: "Core Moves"
@@ -145,44 +145,44 @@ tables:
 
     - position: "Reversal"
       category: "Core Moves"
-      technique: "Back roll"
+      technique: "Back Roll"
 
-    - position: "Close space"
+    - position: "Close Space"
       category: "Core Moves"
-      technique: "Front roll"
+      technique: "Front Roll"
 
-    - position: "Build height"
+    - position: "Build Height"
       category: "Core Moves"
-      technique: "Grappler's lift"
+      technique: "Grappler's Lift"
 
-    - position: "Build height"
+    - position: "Build Height"
       category: "Core Moves"
-      technique: "Technical stand up"
+      technique: "Technical Stand Up"
 
-    - position: "Close space"
+    - position: "Close Space"
       category: "Core Moves"
-      technique: "Back step"
+      technique: "Back Step"
 
-    - position: "Build height"
+    - position: "Build Height"
       category: "Core Moves" 
       technique: "Scissor"
 
-    - position: "Build height"
+    - position: "Build Height"
       category: "Core Moves"
       technique: "Pendulum"
 
-    - position: "Close space"
+    - position: "Close Space"
       category: "Core Moves"
-      technique: "Lizard walk"
+      technique: "Lizard Walk"
       steps: [ "Knee elbow connection" ]
 
-    - position: "Close space"
+    - position: "Close Space"
       category: "Core Moves"
-      technique: "Hip up triangle"
+      technique: "Hip Up Triangle"
        
-    - position: "Back control"
+    - position: "Back Control"
       category: "Pin Escapes"
-      technique: "Choking side escape"
+      technique: "Choking Side Escape"
       steps:
         - "Protect the neck and hand fight"
         - "Block the choking arm"
@@ -192,9 +192,9 @@ tables:
         - label: "TeachMeGrappling"
           url: "https://youtu.be/sNZ5tiVhJBA"
 
-    - position: "Back control"
+    - position: "Back Control"
       category: "Pin Escapes"
-      technique: "Underhook side escape"
+      technique: "Underhook Side Escape"
       steps:
         - "Identify the opponent’s weak hook side"
         - "Control the choking arm with both hands"
@@ -209,7 +209,7 @@ tables:
 
     - position: "Mount"
       category: "Pin Escapes"
-      technique: "Bridge & roll (upa)"
+      technique: "Bridge & Roll (Upa)"
       steps:
         - "Trap one arm and foot"
         - "Bridge explosively"
@@ -221,7 +221,7 @@ tables:
 
     - position: "Mount"
       category: "Pin Escapes"
-      technique: "Knee-elbow escape"
+      technique: "Knee-Elbow Escape"
       steps:
         - "Frame on the opponent’s hips"
         - "Shrimp to create space"
@@ -245,9 +245,9 @@ tables:
         - label: "Matt Thornton"
           url: "https://youtu.be/-eCX6umguKE"
 
-    - position: "Side control"
+    - position: "Side Control"
       category: "Pin Escapes"
-      technique: "Hip escape"
+      technique: "Hip Escape"
       steps:
         - "Frame against the opponent"
         - "Shrimp hips away"
@@ -261,9 +261,9 @@ tables:
         - label: "Lachlan Giles"
           url: "https://youtu.be/swEcP2QWHs8"
 
-    - position: "Side control"
+    - position: "Side Control"
       category: "Pin Escapes"
-      technique: "Elbow push escape"
+      technique: "Elbow Push Escape"
       steps:
         - "Frame on opponent’s elbow"
         - "Push to create space"
@@ -273,9 +273,9 @@ tables:
         - label: "Stephan Kesting"
           url: "https://youtu.be/STPl8FR7FXA"
 
-    - position: "Side control"
+    - position: "Side Control"
       category: "Pin Escapes"
-      technique: "Ghost escape"
+      technique: "Ghost Escape"
       steps:
         - "Frame under the opponent"
         - "Bridge and turn"
@@ -284,7 +284,7 @@ tables:
         - label: "TeachMeGrappling"
           url: "https://youtu.be/6ZKFobk8vOQ"
 
-    - position: "Knee on belly"
+    - position: "Knee On belly"
       category: "Pin Escapes"
       technique: "Reversal"
       steps:
@@ -297,8 +297,8 @@ tables:
         - label: "TeachMeGrappling"
           url: "https://youtu.be/Pk3EMJely7Y"
 
-    - position: "Half guard"
-      technique: "Clamp guard"
+    - position: "Half Guard"
+      technique: "Clamp Guard"
       category: "Pin Escapes"
       steps:
         - "Control opponent’s posture"
@@ -308,8 +308,8 @@ tables:
         - label: "TeachMeGrappling"
           url: "https://youtu.be/bsA-GBc9Eds"
 
-    - position: "Half guard"
-      technique: "Underhook back take"
+    - position: "Half Guard"
+      technique: "Underhook Back Take"
       category: "Pin Escapes"
       steps:
         - "Secure underhook"
@@ -319,8 +319,8 @@ tables:
         - label: "TeachMeGrappling"
           url: "https://youtu.be/jODA4_k61L8"
 
-    - position: "Half guard"
-      technique: "Foot sweep"
+    - position: "Half Guard"
+      technique: "Foot Sweep"
       category: "Pin Escapes"
       steps:
         - "Control opponent’s balance"
@@ -330,9 +330,9 @@ tables:
         - label: "TeachMeGrappling"
           url: "https://youtu.be/J8OxuvhxXlo"
 
-    - position: "Full guard"
+    - position: "Full Guard"
       category: "Pin Escapes"
-      technique: "Kneeling guard escape"
+      technique: "Kneeling Guard Escape"
       steps:
         - "Control hips"
         - "Open the guard"
@@ -343,13 +343,13 @@ tables:
         - label: "Matt Arroyo"
           url: "https://youtu.be/4KWVgQ_2szE"
 
-    - position: "Full guard"
+    - position: "Full Guard"
       category: "Pin Escapes"
-      technique: "Standing guard escape"
+      technique: "Standing Guard Escape"
 
     - position: "Turtle"
       category: "Pin Escapes"
-      technique: "Slide-in reversal"
+      technique: "Slide-in Reversal"
       videos:
         - label: "O2 BJJ"
           url: "https://youtu.be/2uf1tnzvluM"
@@ -357,13 +357,16 @@ tables:
     - position: "Turtle"
       category: "Pin Escapes"
       technique: "Sit out"
+      videos:
+        - label: "Peter Mettler Martial Arts"
+          url: "https://youtu.be/R0AlwoWcXHA"
 
     - position: "Turtle"
       category: "Pin Escapes"
       technique: "Makikomi roll"
 
-    - position: "Late submission escapes"
-      technique: "Ankle trap armbar escape"
+    - position: "Late Submission Escapes"
+      technique: "Ankle Trap Armbar"
       category: "Pin Escapes"
       steps:
         - "Trap the ankle"
@@ -375,8 +378,8 @@ tables:
         - label: "TeachMeGrappling 2"
           url: "https://youtu.be/dTFyB1issmo"
 
-    - position: "Late submission escapes"
-      technique: "Triangle late escape"
+    - position: "Late Submission Escapes"
+      technique: "Triangle"
       category: "Pin Escapes"
       steps:
         - "Posture and create space"
@@ -385,124 +388,204 @@ tables:
       videos:
         - label: "Lachlan Giles"
           url: "https://youtu.be/Ss49jnCob0w"
-        - label: "BJJ Fanatics (Garry Tonon)"
+        - label: "Garry Tonon"
           url: "https://youtu.be/od-lcD_34f8"
 
-    - position: "Late submission escapes"
+    - position: "Late Submission Escapes"
       category: "Pin Escapes"
       technique: "Rear Naked Choke"
       videos:
         - label: "TeachMeGrappling"
           url: "https://youtu.be/aGFstiSgxCo"
 
-    - position: "Guard passing"
-      category: "Attack systems"
-      technique: "Knee slice"
+    - position: "Guard Passing"
+      category: "Attack Systems"
+      technique: "Knee Slice"
 
-    - position: "Guard passing"
-      category: "Attack systems"
-      technique: "Double under"
+    - position: "Guard Passing"
+      category: "Attack Systems"
+      technique: "Double Under"
 
-    - position: "Guard passing"
-      category: "Attack systems"
-      technique: "Over under"
+    - position: "Guard Passing"
+      category: "Attack Systems"
+      technique: "Over Under"
 
-    - position: "Guard passing"
-      category: "Attack systems"
-      technique: "Stack pass"
+    - position: "Guard Passing"
+      category: "Attack Systems"
+      technique: "Stack Pass"
       videos:
         - label: "Lachlan Giles"
           url: "https://youtu.be/bSfdlYpIs7g"
 
-    - position: "Guard passing"
-      category: "Attack systems"
+    - position: "Guard Passing"
+      category: "Attack Systems"
       technique: "Torreando"
       videos:
         - label: "TeachMeGrappling"
           url: "https://youtu.be/ZMkGf1sP_90"
 
-    - position: "Half guard"
-      category: "Attack systems"
-      technique: "Foot-wedge guard pass"
+    - position: "Half Guard"
+      category: "Attack Systems"
+      technique: "Foot-wedge Guard Pass"
 
-    - position: "Half guard"
-      category: "Attack systems"
-      technique: "Hip-switch guard pass"
+    - position: "Half Guard"
+      category: "Attack Systems"
+      technique: "Hip-switch Guard Pass"
   
-    - position: "Full guard"
-      category: "Attack systems"
-      technique: "Arm drag back take"
+    - position: "Full Guard"
+      category: "Attack Systems"
+      technique: "Arm Drag Back Take"
       
-    - position: "Full guard"
-      category: "Attack systems"
-      technique: "Scissor sweep"
+    - position: "Full Guard"
+      category: "Attack Systems"
+      technique: "Scissor Sweep"
 
-    - position: "Full guard"
-      category: "Attack systems"
-      technique: "Hip bump sweep"
+    - position: "Full Guard"
+      category: "Attack Systems"
+      technique: "Hip Bump Sweep"
       videos:
         - label: "Craig Jones"
           url: "https://youtu.be/fQDbxaK3ix8"
 
-    - position: "Full guard"
-      category: "Attack systems"
-      technique: "(No Gi) Cross collar choke"
+    - position: "Full Guard"
+      category: "Attack Systems"
+      technique: "(No Gi) Cross Collar Choke"
 
-    - position: "Full guard"
-      category: "Attack systems"
-      technique: "Arm bar"
+    - position: "Full Guard"
+      category: "Attack Systems"
+      technique: "Arm Bar"
 
-    - position: "Full guard"
-      category: "Attack systems"
-      technique: "Triangle choke"
+    - position: "Full Guard"
+      category: "Attack Systems"
+      technique: "Triangle Choke"
 
-    - position: "Full guard"
-      category: "Attack systems"
+    - position: "Full Guard"
+      category: "Attack Systems"
       technique: "Kimura"
       videos:
         - label: "TeachMeGrappling"
           url: "https://youtu.be/NQ7YnPSzvlM"
 
-    - position: "Full guard"
-      category: "Attack systems"
+    - position: "Full Guard"
+      category: "Attack Systems"
       technique: "Guillotine"
 
-  - title: "Other BJJ Techniques"
+    - position: "Side Control"
+      category: "Attack Systems"
+      technique: "Knee Slice To Mount"
+      videos:
+        - label: "TeachMeGrappling"
+          url: "https://youtu.be/cBgH7-iobn4"
+        - label: "Ffion Davies"
+          url: "https://youtu.be/qW1t84rGK5E"
+
+    - position: "Side Control"
+      category: "Attack Systems"
+      technique: "Kimura"
+
+    - position: "Side Control"
+      category: "Attack Systems"
+      technique: "Americana"
+
+    - position: "Side Control"
+      category: "Attack Systems"
+      technique: "Head & Arm Triangle Choke"
+      videos:
+        - label: "Nicky Ryan"
+          url: "https://youtu.be/DOjT8k4HhQU"
+        - label: "Craig Jones"
+          url: "https://youtu.be/yWX1TRm67S8"
+        - label: "Ffion Davis"
+          url: "https://youtu.be/jXaQzoWg2Ac"
+        - label: "TeachMeGrappling"
+          url: "https://youtu.be/6QqRC_Jn2no"
+        - label: "10th Planet JJ"
+          url: "https://youtu.be/cRGIXBwVOSk"
+
+    - position: "Side Control"
+      category: "Attack Systems"
+      technique: "Spinning Arm Bar"
+      
+    - position: "Side Control"
+      category: "Attack Systems"
+      technique: "Door Stop"
+      videos:
+        - label: "TeachMeGrappling"
+          url: "https://youtu.be/TcKrb2CjDCs"
+
+    - position: "Full Mount"
+      category: "Attack Systems"
+      technique: "Back Take"
+
+    - position: "Full Mount"
+      category: "Attack Systems"
+      technique: "Arm Bar"
+
+    - position: "Full Mount"
+      category: "Attack Systems"
+      technique: "Americana"
+
+    - position: "Full Mount"
+      category: "Attack Systems"
+      technique: "(Gi Only) Cross Collar Choke"
+
+    - position: "Back Control"
+      category: "Attack Systems"
+      technique: "Rear Naked Choke"
+      videos:
+        - label: "TeachMeGrappling 1"
+          url: "https://youtu.be/KHIBZOxy8Ac"
+        - label: "TeachMeGrappling 2"
+          url: "https://youtu.be/lsN7rmik70o"
+        - label: "TeachMeGrappling 3"
+          url: "https://youtu.be/VpOOJx2lV1o"
+        - label: "Joe Rogan"
+          url: "https://youtu.be/5aoEL3NdiU0"
+        - label: "Craig Jones (mandibular choke)"
+          url: "https://youtu.be/FpJTnOEkqYI"
+
+    - position: "Back Control"
+      category: "Attack Systems"
+      technique: "Rear Triangle & Arm Bar"
+      videos:
+        - label: "BJJ Globetrotters"
+          url: "https://youtu.be/EchKKSAYMqM"
+
+    - position: "Back Control"
+      category: "Attack Systems"
+      technique: "(Gi Only) Lapel Choke"
+
+    - position: "Back Control"
+      category: "Attack Systems"
+      technique: "(Gi Only) Bow & Arrow Choke"
+
+  - title: "Extra Credits"
     rows:
     - position: "Takedowns"
-      technique: "Takedowns"
-      steps:
-        - "Set up grips and stance"
-        - "Break opponent's balance"
-        - "Execute throw or sweep"
+      category: "Additional Techniques"
+      technique: "Wrestling Takedowns"
       videos:
-        - label: "Judo (Grapple Media)"
-          url: "https://youtu.be/dVbD9SpAjAw"
         - label: "Slide-by (TMG)"
           url: "https://youtu.be/kL6XnDDCFK8"
         - label: "Hip throw (TMG)"
           url: "https://youtu.be/Uq8NXwT9bDU"
         - label: "Clinch bodywork (TMG)"
           url: "https://youtu.be/EVVdF8YPy1Y"
-        - label: "Uchi mata koichi combo (Higashi)"
-          url: "https://youtu.be/EVVdF8YPy1Y"
-        - label: "Koshi guruma, ogoshi, seoi nage (Skyhook)"
-          url: "https://youtu.be/o9vyWn1ZBNs"
         - label: "TeachMeGrappling"
           url: "https://youtu.be/N65JcAwFsdk"
 
-    - position: "Bottom of turtle"
-      technique: "Bottom of turtle"
-      steps:
-        - "Establish base"
-        - "Protect neck and arms"
-        - "Escape or sweep"
+    - position: "Takedowns"
+      category: "Additional Techniques"
+      technique: "Judo Takedowns"
       videos:
-        - label: "Peter Mettler Martial Arts"
-          url: "https://youtu.be/R0AlwoWcXHA"
+        - label: "Judo (Grapple Media)"
+          url: "https://youtu.be/dVbD9SpAjAw"
+        - label: "Koshi guruma, ogoshi, seoi nage (Skyhook)"
+          url: "https://youtu.be/o9vyWn1ZBNs"
 
-    - position: "Attacking sitting Guard"
-      technique: "Attacking sitting Guard"
+    - position: "Guard Passing"
+      category: "Guard"
+      technique: "Sitting Guard"
       steps:
         - "Control opponent’s posture"
         - "Set up submissions or sweeps"
@@ -513,8 +596,9 @@ tables:
         - label: "Toro Bravo"
           url: "https://youtu.be/7z8ZeyZl2t8"
 
-    - position: "Butterfly guard"
-      technique: "Butterfly guard"
+    - position: "Guard Retention"
+      category: "Guard"
+      technique: "Butterfly Guard"
       steps:
         - "Insert hooks and control arms"
         - "Off-balance opponent"
@@ -525,26 +609,26 @@ tables:
         - label: "Marcelo Garcia by Kenny Florian"
           url: "https://youtu.be/WB9_9TgcH1o"
 
-    - position: "Gift wrap"
+    - position: "Back Exposure"
+      category: "Additional Techniques"
       technique: "Gift wrap"
       steps:
         - "Control opponent’s arm and posture"
         - "Lock position"
         - "Attack with submissions or transitions"
       videos:
-        - label: "TeachMeGrappling"
-          url: "https://youtu.be/ZFjvOBM9ag"
-        - label: "The Happy Pill Project"
-          url: "https://youtu.be/XiGjkaErRZc"
         - label: "JJ Champloo"
           url: "https://youtu.be/igMiqxNplpE"
         - label: "JJ Knight"
           url: "https://youtu.be/vMlSjPhsMj8"
         - label: "Brian Glick"
           url: "https://youtu.be/5bw7poxVJ1E"
+        - label: "TeachMeGrappling"
+          url: "https://youtu.be/QJIMC9JiaXY"
 
-    - position: "Clamp guard"
-      technique: "Clamp guard"
+    - position: "Guard Retention"
+      category: "Guard"
+      technique: "Clamp Guard"
       steps:
         - "Lock legs around opponent"
         - "Control posture"
@@ -558,14 +642,13 @@ tables:
           url: "https://youtu.be/wYBK1vKXyIE"
         - label: "Brian Glick 4"
           url: "https://youtu.be/IceuCNbhJw0"
-        - label: "TeachMeGrappling"
-          url: "https://youtu.be/QJIMC9JiaXY"
         - label: "Jaramillo"
           url: "https://youtu.be/ZmZTZQYuNZs"
         - label: "Danaher"
           url: "https://youtu.be/gQWXO_L0jbU"
 
-    - position: "Leg stapling"
+    - position: "Leg Techniques"
+      category: "Additional Techniques"
       technique: "Leg stapling"
       steps:
         - "Control opponent’s leg"
@@ -576,8 +659,6 @@ tables:
           url: "https://youtu.be/CkBEvF-71qY"
         - label: "Leg ridding 2"
           url: "https://youtu.be/BBMuYMZM-FM"
-        - label: "Leg ridding 3"
-          url: "https://youtu.be/xJL9VeEbcVs"
         - label: "Leg stapling 1"
           url: "https://youtu.be/AqW4VcP1QZo"
         - label: "Leg stapling 2"
@@ -593,13 +674,16 @@ tables:
         - label: "The art of pinning (Craig Jones)"
           url: "https://youtu.be/Z905rtKVOaA"
 
-    - position: "Leg locks"
+    - position: "Leg Techniques"
+      category: "Additional Techniques"
       technique: "Leg locks"
       steps:
         - "Control opponent’s leg"
         - "Isolate joint"
         - "Apply submission safely"
       videos:
+        - label: "Understanding Leg Lock Positions"
+          url: "https://youtu.be/90HcwaQ1yG4"
         - label: "LessImpressedMoreInvolved 1"
           url: "https://youtu.be/1xAFbNGMoa8"
         - label: "LessImpressedMoreInvolved 2"
@@ -607,7 +691,8 @@ tables:
         - label: "TeachMeGrappling"
           url: "https://youtu.be/RvPyukNsaOU"
 
-    - position: "Defensive BJJ"
+    - position: "Pin Escapes"
+      category: "Additional Techniques"
       technique: "Defensive BJJ"
       steps:
         - "Maintain base and posture"
@@ -621,8 +706,9 @@ tables:
         - label: "Chris Paine"
           url: "https://youtu.be/qX30Wx5glJg"
 
-    - position: "North south choke"
-      technique: "North south choke"
+    - position: "North South"
+      category: "Additional Techniques"
+      technique: "North South Choke"
       steps:
         - "Secure north-south position"
         - "Control head and arm"
@@ -633,7 +719,8 @@ tables:
         - label: "Marcelo Garcia Jiu-Jitsu"
           url: "https://youtu.be/ExRy6o0fbAM"
 
-    - position: "Chain guard passing"
+    - position: "Guard Passing"
+      category: "Guard"
       technique: "Chain guard passing"
       steps:
         - "Transition through multiple passes"
@@ -644,6 +731,7 @@ tables:
           url: "https://youtu.be/NyXB1gguq8w"
 
     - position: "Mobility"
+      category: "Conditioning"
       technique: "Mobility"
       steps:
         - "Perform hip mobility exercises"
