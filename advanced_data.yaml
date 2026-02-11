@@ -15,7 +15,100 @@ articles:
       - [ { "Jonathan Allouche - réflexions, conseils et analyses":"https://www.youtube.com/@jonathan_bjj" }, " (en français)." ]
       - { "Kata Jiu Jitsu":"https://www.youtube.com/@KataJiuJitsu" }
 
-tables:
+tables:  
+  - title: "Elements of Submission Grappling"
+    rows:
+    - category: "Concepts"
+      position: "Biomechanics"
+      technique: "Balance"
+
+    - category: "Concepts"
+      position: "Biomechanics"
+      technique: "Structure"
+
+    - category: "Concepts"
+      position: "Biomechanics"
+      technique: "Momentum"
+
+    - category: "Concepts"
+      position: "Biomechanics"
+      technique: "Passing the Knee Caps and Elbows"
+
+    - category: "Concepts"
+      position: "Biomechanics"
+      technique: "Passing the Elbows"
+
+    - category: "Concepts"
+      position: "Biomechanics"
+      technique: "Weight on the Upper Thighs"
+
+    - category: "Concepts"
+      position: "Biomechanics"
+      technique: "Just Stand Up"
+
+    - category: "Concepts"
+      position: "Biomechanics"
+      technique: "Bottom Leg and Hip Heist"
+
+    - category: "Concepts"
+      position: "Physics and Simple Machines"
+      technique: "Gravity"
+
+    - category: "Concepts"
+      position: "Physics and Simple Machines"
+      technique: "Fulcrum and Lever"
+
+    - category: "Concepts"
+      position: "Physics and Simple Machines"
+      technique: "Scissor Apex"
+
+    - category: "Concepts"
+      position: "Physics and Simple Machines"
+      technique: "Circle Theory"
+
+    - category: "Concepts"
+      position: "Psychology"
+      technique: "Game Plan"
+      rationale:
+        - "The general game plan of Jiu-Jitsu follows three phases."
+        - "First, beat the periphery: control and pass the opponent's extremities (hands, feet, knees, and elbows) by engaging in hand fighting."
+        - "Second, establish spinal control to limit their movement."
+        - "Third, attack for submissions by targeting their extremities, including the neck."
+        - "Effective defense revolves around preventing the opponent from reaching phase two, as spinal control greatly reduces escape options."
+
+    - category: "Concepts"
+      position: "Psychology"
+      technique: "Internal Focus"
+
+    - category: "Concepts"
+      position: "Psychology"
+      technique: "Robbing the Liquor Store"
+
+    - category: "Techniques"
+      position: "Submissions"
+      technique: "Chokes"
+      rationale:
+        - "Restricting blood flow through the carotid arteries in the neck requires minimal effort, comparable to the pressure needed to render your fingernail pale when pressed against a surface. Correctly executed, chokes take minimal effort and no more than 10 seconds."
+        - "Control before submission. Submission injuries can be extremely severe (ex, sitting guillotine from head outside single leg). A neck can break with just 4mm of tear. To minimize this risk, it is essential to be able to maintain full control of your partner for at least 5 seconds before applying a submission. Once control is established, chokes can be executed slowly and safely, protecting their neck. If you cannot eliminate the hazard, reduce the risk of it occurring. The only reason you rush a sub is because you do not have control. Do not finish submissions until you have mastered control, even if it takes two years."
+      defense:
+        - "Protect your neck (windpipe and arteries) by placing your chin against one of your shoulders."
+      offense:
+        - "For Rear Naked Choke (RNC), control first: their spine is completely isolated using two hooks to control their hips, one leg over their choking side arm, and a wrist ride on the other arm."
+        - "Position your open elbow directly in front of the windpipe, ensuring their neck makes contact with your elbow crease before closing."
+        - "Make sure there is no pressure on their windpipe."
+        - "Maintain a steady hold with the same light pressure needed to turn your fingertip pale, and hold for 10 seconds."
+      drill:
+        - "Drill: they pass your guard to get back to back control. Leave your arms down, against your hips, at all time and make sure your shoulder puts pressure in the middle of their chest. Keep messing with the angle."
+        - "Turn towards to their choking arm (works even better in gi) and look at their armpit to escape from the threat."
+
+    - category: "Techniques"
+      position: "Submissions"
+      technique: "Joint Hyper-Extensions"
+
+    - category: "Techniques"
+      position: "Submissions"
+      technique: "Joint Rotations"
+
   - title: "Techniques"
     rows:
     - position: "IRIMI ASHI"
