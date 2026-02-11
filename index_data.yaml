@@ -790,8 +790,10 @@ tables:
     - position: "Positions"
       category: "Defensive Positions"
       technique: "Turtle"
-      steps:
-        - "Transitions to Sit-Out, Granby or Makikomi Roll"
+      transitions:
+        - "Sit-Out"
+        - "Granby"
+        - "Makikomi Roll"
 
     - position: "Positions"
       category: "Defensive Positions"
