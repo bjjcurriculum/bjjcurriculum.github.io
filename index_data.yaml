@@ -749,3 +749,86 @@ tables:
         - label: "5-min daily stretch"
           url: "https://youtu.be/sOuKeVuej9E"
 
+    - position: "Basic Components"
+      category: "Defensive Positions"
+      technique: "Defensive BJJ"
+      steps:
+        - "Defensive BJJ focuses on positions that slows down upper-body attacks, common in traditional Jiu-Jitsu, to stay safe after your guard is passed, and time your esccapes."
+        - "They are played dynamically. If you are risk averse, you can stay compact but transition quickly. If you are comfortable with more risk, you can play looser but you need to control the gaps through hand fighting."
+
+    - position: "Basic Components"
+      category: "Defensive Positions"
+      technique: "Elbow position"
+      steps:
+        - "Keep your friends close, and your elbow closer, against your ribcage."
+        - "The goal of submission grappling is to establish dominance and control over your opponent, particularly in the space between their knees and armpits, to secure a submission."
+        - "Underhooks offer strong control, while lying flat on your back limits your ability to move athletically. Prevent underhooks and being flat on your back at all costs."
+        - "Elbows on the ribcage create a gap and elbows in can be further pushed in. Both can be exploited for an underhook. Elbows 2 cm out block underhook access and act as pressure wedges."
+        - "Defensive elbow and chin position prevents chokes and over unders (seat belts)."
+        - "Defensive hands position helps protect your neckline when you feel an arm coming over your shoulder."
+
+    - position: "Basic Components"
+      category: "Defensive Positions"
+      technique: "Shoulder position"
+      steps:
+        - "Shoulder against your chin to protect your neckline."
+
+    - position: "Basic Components"
+      category: "Defensive Positions"
+      technique: "Hands Position"
+      steps:
+        - "Lower your head and raise your hands with palms facing inward, using active grips to hand fight (grabbing all four of their fingers)."
+        - "Be careful: the moment you bring your hands to your face, they can easily push your elbows in."
+        - "If they secure an underhook, grab their fingers and pummmel their hand (or leg) out to reclaim inside position with your elbow."
+
+    - position: "Basic Components"
+      category: "Defensive Positions"
+      technique: "Feet position"
+      steps:
+        - "Active toes whenever possible."
+
+    - position: "Positions"
+      category: "Defensive Positions"
+      technique: "Turtle"
+      steps:
+        - "Transitions to Sit-Out, Granby or Makikomi Roll"
+
+    - position: "Positions"
+      category: "Defensive Positions"
+      technique: "Panda"
+      steps:
+        - "Sitting Turtle."
+
+    - position: "Positions"
+      category: "Defensive Positions"
+      technique: "Running Man"
+      steps:
+        - "It is a Half Turtle position."
+        - "Get rid of a top body lock."
+        - "Half guard escape with underhook."
+        - "Catch 1/4 Guard from Bottom of Mount."
+
+    - position: "Positions"
+      category: "Defensive Positions"
+      technique: "Hawking"
+      steps:
+        - "It is a Reverse Half Turtle."
+        - "It is the same as the Hip Escape Base."
+
+    - position: "Positions"
+      category: "Defensive Positions"
+      technique: "Grilled Chicken"
+      steps:
+        - "It is a Supine Turtle position."
+        - "Elbows in a defensive position."
+        - "Knees up."
+        - "Cross your arms and grab your legs."
+      transitions:
+        - "As they pass your knees, turn to the side into a Hawking position."
+        - "Put the tip of your shoulder into the middle of their chest. Wherever their chest goes, you go."
+        - "If they try to get to side control, cross your arms, grab your thighs and pull yourself in."
+        - "If your hands are free, they can pull them open again. Use your feet to brace."
+
+    - position: "Positions"
+      category: "Defensive Positions"
+      technique: "Babybridge"
